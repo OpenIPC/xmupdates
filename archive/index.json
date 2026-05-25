@@ -6804,5 +6804,69 @@
         "version": "000929ZJ"
       }
     ]
+  },
+  "2325": {
+    "downloadMenuId": 6,
+    "name": "IPC_RV1103_LPG-R4-4GEQ-C_4G\n",
+    "revisions": [
+      {
+        "archived_at": "2026-05-25T08:40:09Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2325__000A79YJ__000A79YJ.1IPC_RV1103_LPG-R4-4GEQ-C_4G.Nat_V5.01.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NTE=",
+        "filename": "id2325__000A79YJ__000A79YJ.1IPC_RV1103_LPG-R4-4GEQ-C_4G.Nat_V5.01.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "356464b25bc375ebb4d8fc346e5675921007d4469b0479b7e77a2e5c57da66ea",
+        "size": 10929096,
+        "version": "000A79YJ"
+      }
+    ]
+  },
+  "2326": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_XM210_X2-WR-T_S38\n",
+    "revisions": [
+      {
+        "archived_at": "2026-05-25T08:40:16Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2326__000999WP__000999WP.1IPC_XM210_X2-WR-T_S38_V5.01.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4MzE=",
+        "filename": "id2326__000999WP__000999WP.1IPC_XM210_X2-WR-T_S38_V5.01.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "bd2c2b870a80561394191aa35fa4b1fe5645dd8c1fff5428880c7d4d2c54d3a4",
+        "size": 2837513,
+        "version": " 000999WP"
+      }
+    ]
+  },
+  "2327": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_GK7201V200_G3J-A\n",
+    "revisions": [
+      {
+        "archived_at": "2026-05-25T08:40:23Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2327__00093A0F__00093A0F.1IPC_GK7201V200_G3J-A.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4ODY=",
+        "filename": "id2327__00093A0F__00093A0F.1IPC_GK7201V200_G3J-A.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "1dfacfe3963f230fcc691c15cb570b2408cd856f7d4c42bc5ef293476387fd94",
+        "size": 7418646,
+        "version": "00093A0F"
+      }
+    ]
+  },
+  "2328": {
+    "downloadMenuId": 5,
+    "name": "\nAHB80N16T-GS\n\n",
+    "revisions": [
+      {
+        "archived_at": "2026-05-25T08:40:33Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2328__C6380248__C6380248(AHB80N16T-GS).zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1MjE=",
+        "filename": "id2328__C6380248__C6380248(AHB80N16T-GS).zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ff256da55e56b0b3c4077d13f88b47f6f53db39f5937858524533902b77ad270",
+        "size": 19434977,
+        "version": "C6380248"
+      }
+    ]
   }
 }
