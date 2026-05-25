@@ -2383,7 +2383,31 @@
             "name": "\nIPC_GK7201V200_G3J_S38\n",
             "usage": "",
             "version": "000929ZJ"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NTE=",
+            "id": 2325,
+            "name": "IPC_RV1103_LPG-R4-4GEQ-C_4G\n",
+            "usage": "",
+            "version": "000A79YJ"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4MzE=",
+            "id": 2326,
+            "name": "\nIPC_XM210_X2-WR-T_S38\n",
+            "usage": "",
+            "version": " 000999WP"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4ODY=",
+            "id": 2327,
+            "name": "\nIPC_GK7201V200_G3J-A\n",
+            "usage": "",
+            "version": "00093A0F"
         }
     ],
-    "total": 298
+    "total": 301
 }
