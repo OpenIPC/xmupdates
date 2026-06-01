@@ -1495,7 +1495,15 @@
             "name": "\nAHB80N16T-GS\n\n",
             "usage": "",
             "version": "C6380248"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1Mjc=",
+            "id": 2329,
+            "name": "AHB80N32F-LME\n",
+            "usage": "",
+            "version": "C6380249"
         }
     ],
-    "total": 187
+    "total": 188
 }

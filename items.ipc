@@ -2407,7 +2407,31 @@
             "name": "\nIPC_GK7201V200_G3J-A\n",
             "usage": "",
             "version": "00093A0F"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4ODc=",
+            "id": 2330,
+            "name": "\nIPC_GK7201V200_G6-WEQ_S38_WIFI\n",
+            "usage": "",
+            "version": "000929Y3"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NDE=",
+            "id": 2331,
+            "name": "\nIPC_RV1103_LPG-R4S-4GQ_4G\n",
+            "usage": "",
+            "version": "000A79YD"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4Mzc=",
+            "id": 2332,
+            "name": "\nIPC_RV1103_LPG-R8-4GEQ_4G\n",
+            "usage": "",
+            "version": "000A79X1"
         }
     ],
-    "total": 301
+    "total": 304
 }
