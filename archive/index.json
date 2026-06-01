@@ -6868,5 +6868,69 @@
         "version": "C6380248"
       }
     ]
+  },
+  "2329": {
+    "downloadMenuId": 5,
+    "name": "AHB80N32F-LME\n",
+    "revisions": [
+      {
+        "archived_at": "2026-06-01T09:35:52Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2329__C6380249__C6380249(AHB80N32F-LME).zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1Mjc=",
+        "filename": "id2329__C6380249__C6380249(AHB80N32F-LME).zip",
+        "release_tag": "firmware-archive",
+        "sha256": "80c9edd4001cb73a2ae5fca850ea6792725244ff28c771a122d3539a77448d31",
+        "size": 19432002,
+        "version": "C6380249"
+      }
+    ]
+  },
+  "2330": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_GK7201V200_G6-WEQ_S38_WIFI\n",
+    "revisions": [
+      {
+        "archived_at": "2026-06-01T09:35:33Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2330__000929Y3__000929Y3.1IPC_GK7201V200_G6-WEQ_S38_WIFI.at6132cu.Nat_V5.03.C03.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4ODc=",
+        "filename": "id2330__000929Y3__000929Y3.1IPC_GK7201V200_G6-WEQ_S38_WIFI.at6132cu.Nat_V5.03.C03.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "e5ea5890f41be9ef47db978bf380d03142f685b03ab7aea0b6620a62df54e124",
+        "size": 7692292,
+        "version": "000929Y3"
+      }
+    ]
+  },
+  "2331": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_RV1103_LPG-R4S-4GQ_4G\n",
+    "revisions": [
+      {
+        "archived_at": "2026-06-01T09:35:39Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2331__000A79YD__000A79YD.1IPC_RV1103_LPG-R4S-4GQ_4G.Nat_V5.01.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NDE=",
+        "filename": "id2331__000A79YD__000A79YD.1IPC_RV1103_LPG-R4S-4GQ_4G.Nat_V5.01.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "0a677aabbad79bb93a999f30c75edb274ca918e5775251a4b384b996024a35c2",
+        "size": 10923866,
+        "version": "000A79YD"
+      }
+    ]
+  },
+  "2332": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_RV1103_LPG-R8-4GEQ_4G\n",
+    "revisions": [
+      {
+        "archived_at": "2026-06-01T09:35:45Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2332__000A79X1__000A79X1.1IPC_RV1103_LPG-R8-4GEQ_4G.Nat_V5.01.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4Mzc=",
+        "filename": "id2332__000A79X1__000A79X1.1IPC_RV1103_LPG-R8-4GEQ_4G.Nat_V5.01.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "2a8ef89132cbe818ee9cd9c7f4d6b67d44aebf310b7a136750d7048433a6a28a",
+        "size": 11111412,
+        "version": "000A79X1"
+      }
+    ]
   }
 }
