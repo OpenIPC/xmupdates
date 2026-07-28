@@ -1,7 +1,7 @@
 # xmupdates
 
-Unofficial mirror of the [XiongMai (XM030)](https://www.xm030.cn/) IP camera and
-DVR firmware catalogs and binaries, maintained for the
+Unofficial mirror of the XiongMai / [JFTech](https://baike.jftech.com/) IP camera
+and DVR firmware catalogs and binaries, maintained for the
 [OpenIPC](https://openipc.org/) community.
 
 XiongMai is the OEM behind a large fraction of off-brand IP cameras and DVRs.
@@ -9,6 +9,11 @@ Stock firmware downloads are useful for OpenIPC users who need to recover a
 device, compare against a stock image, or roll back a flaky upgrade. The
 vendor's download portal is sometimes unreliable (and as of writing, has an
 expired TLS certificate), so this repository keeps a self-updating mirror.
+
+The vendor rebranded to JFTech and moved the catalog from `baike.xm030.cn` to
+`baike.jftech.com` in July 2026 — the old host, along with the rest of the
+`xm030.cn` zone bar `download.xm030.cn`, no longer resolves. The endpoint itself
+was unchanged, and firmware binaries are still served from `download.xm030.cn`.
 
 ## Layout
 
