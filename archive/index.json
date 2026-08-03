@@ -7061,6 +7061,22 @@
       }
     ]
   },
+  "2341": {
+    "downloadMenuId": 5,
+    "name": "NBD80S09S-KLC",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:50:23Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2341__N95C524Q__N95C524Q\uff08NBD80S09S-KLC\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE3MTQ=",
+        "filename": "id2341__N95C524Q__N95C524Q\uff08NBD80S09S-KLC\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "04dedfefc133ce8773157512fed8e63d6752962f54217823a608abcc9d2a8611",
+        "size": 13182762,
+        "version": "N95C524Q"
+      }
+    ]
+  },
   "2342": {
     "downloadMenuId": 6,
     "name": "IPC_GK7205V500_G4SH",
@@ -7138,6 +7154,22 @@
         "sha256": "4b08c2a1fdaa7d72972c8c53eb6c140324b35f5e1a07b0bf367072feb342f831",
         "size": 8907517,
         "version": "000749Y1"
+      }
+    ]
+  },
+  "2347": {
+    "downloadMenuId": 5,
+    "name": "AHB80N04R-GS-V3\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:50:31Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2347__C638024T__C638024T\uff08AHB80N04R-GS-V3\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1NjQ=",
+        "filename": "id2347__C638024T__C638024T\uff08AHB80N04R-GS-V3\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ed6edb949415ef408c1f02407582b270b90f4d04a651c87c1ec3dbcf9f113671",
+        "size": 14784403,
+        "version": "C638024T"
       }
     ]
   },
@@ -7246,6 +7278,54 @@
         "sha256": "78fe78993c446cf9fcf92a5fd41fe5c81937703c35a69451b2ef54908c9e5bca",
         "size": 7502909,
         "version": "000949Y5"
+      }
+    ]
+  },
+  "2355": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_NT98566_N8F-LQ\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:50:09Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2355__000749TG__000749TG.1IPC_NT98566_N8F-LQ.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE3NDg=",
+        "filename": "id2355__000749TG__000749TG.1IPC_NT98566_N8F-LQ.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "54d99cedd694e096af8f46022d2ea039be757e17a93566bdd3e5232bd2ed204b",
+        "size": 9008793,
+        "version": "000749TG"
+      }
+    ]
+  },
+  "2356": {
+    "downloadMenuId": 5,
+    "name": "AHB80N08R-LME-V3\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:50:40Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2356__0000024V__0000024V\uff08AHB80N08R-LME-V3\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MDk=",
+        "filename": "id2356__0000024V__0000024V\uff08AHB80N08R-LME-V3\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "b40394dac73ca291f9f9ec5b8e867561aba06bf74152604360a83fbc1fbd8c7b",
+        "size": 14767068,
+        "version": "0000024V"
+      }
+    ]
+  },
+  "2357": {
+    "downloadMenuId": 6,
+    "name": "\nIPC_GK7205V200_G3S\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:50:15Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2357__000739AG__000739AG.1IPC_GK7205V200_G3S.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2NDU=",
+        "filename": "id2357__000739AG__000739AG.1IPC_GK7205V200_G3S.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "e2e386a39cd00bcc7c8584d125112bc314250f3f4d5dbf097b124825f0b8d342",
+        "size": 7744673,
+        "version": "000739AG"
       }
     ]
   }
