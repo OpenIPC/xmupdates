@@ -6932,5 +6932,85 @@
         "version": "000A79X1"
       }
     ]
+  },
+  "2333": {
+    "downloadMenuId": 6,
+    "name": "IPC_GK7201V200_G3C_S38",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:46:35Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2333__000929ZR__000929ZR.1IPC_GK7201V200_G3C_S38.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4ODM=",
+        "filename": "id2333__000929ZR__000929ZR.1IPC_GK7201V200_G3C_S38.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "5f11cf3f4e991f175dfe82a6ef0d2c35ae6fbc337cc25ac17c1cbfab9a8af920",
+        "size": 7504937,
+        "version": "000929ZR  "
+      }
+    ]
+  },
+  "2334": {
+    "downloadMenuId": 6,
+    "name": "IPC_GK7201V200_G3-WQ-G_S38_WIFI",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:46:41Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2334__000929QB__000929QB.1IPC_GK7201V200_G3-WQ-G_S38_WIFI.at6012bx.Nat.dss.OnvifS_V5.00.C01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4MjQ=",
+        "filename": "id2334__000929QB__000929QB.1IPC_GK7201V200_G3-WQ-G_S38_WIFI.at6012bx.Nat.dss.OnvifS_V5.00.C01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "50876868d1b5637ab147f6b34f7658773b66a64c28474856a06460fbf43d1fb9",
+        "size": 7690058,
+        "version": "000929QB  "
+      }
+    ]
+  },
+  "2335": {
+    "downloadMenuId": 6,
+    "name": " IPC_XM535D1_X6M-4GEQ-A",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:46:48Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2335__000A09WJ__000A09WJ.1IPC_XM535D1_X6M-4GEQ-A.Nat_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4MzI=",
+        "filename": "id2335__000A09WJ__000A09WJ.1IPC_XM535D1_X6M-4GEQ-A.Nat_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "4676080f1e06dd184fb88a8b08c9c27c8f743a811776d78fb1b96db0a4cb49b4",
+        "size": 6089871,
+        "version": "000A09WJ   "
+      }
+    ]
+  },
+  "2336": {
+    "downloadMenuId": 6,
+    "name": "  IPC_GK7206V11_K8",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:46:55Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2336__000B9A0D__000B9A0D.1IPC_GK7206V11_K8.Nat.dss.OnvifS.HIK_V1.00.T02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4OTc=",
+        "filename": "id2336__000B9A0D__000B9A0D.1IPC_GK7206V11_K8.Nat.dss.OnvifS.HIK_V1.00.T02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "6e4f7e0f25d39ed9a8bd3944505bfdfec65f615df25d13ab9497958d389e7619",
+        "size": 12004080,
+        "version": "000B9A0D  "
+      }
+    ]
+  },
+  "2337": {
+    "downloadMenuId": 6,
+    "name": "IPC_NT98566_N8H",
+    "revisions": [
+      {
+        "archived_at": "2026-08-03T07:47:02Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2337__000749Y1__000749Y1.1IPC_NT98566_N8H.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzI=",
+        "filename": "id2337__000749Y1__000749Y1.1IPC_NT98566_N8H.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "4b08c2a1fdaa7d72972c8c53eb6c140324b35f5e1a07b0bf367072feb342f831",
+        "size": 8907517,
+        "version": "000749Y1"
+      }
+    ]
   }
 }
