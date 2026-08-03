@@ -1503,7 +1503,31 @@
             "name": "AHB80N32F-LME\n",
             "usage": "",
             "version": "C6380249"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE3MTQ=",
+            "id": 2341,
+            "name": "NBD80S09S-KLC",
+            "usage": "",
+            "version": "N95C524Q"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1NjQ=",
+            "id": 2347,
+            "name": "AHB80N04R-GS-V3\n",
+            "usage": "",
+            "version": "C638024T"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MDk=",
+            "id": 2356,
+            "name": "AHB80N08R-LME-V3\n",
+            "usage": "",
+            "version": "0000024V"
         }
     ],
-    "total": 188
+    "total": 191
 }
