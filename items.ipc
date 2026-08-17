@@ -2607,7 +2607,23 @@
             "name": "\nIPC_GK7205V200_G3S\n",
             "usage": "",
             "version": "000739AG"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzI=",
+            "id": 2358,
+            "name": "    IPC_NT98566_N8H\n",
+            "usage": "",
+            "version": "000749Y1 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzY=",
+            "id": 2360,
+            "name": "  IPC_NT98566_N8H-LQ\n",
+            "usage": "",
+            "version": "000749Y2"
         }
     ],
-    "total": 326
+    "total": 328
 }

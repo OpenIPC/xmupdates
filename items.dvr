@@ -1527,7 +1527,15 @@
             "name": "AHB80N08R-LME-V3\n",
             "usage": "",
             "version": "0000024V"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MTQ=",
+            "id": 2359,
+            "name": "AHB80N04R-MH-V3\n",
+            "usage": "",
+            "version": "0000024U"
         }
     ],
-    "total": 191
+    "total": 192
 }
