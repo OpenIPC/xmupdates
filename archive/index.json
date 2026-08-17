@@ -7328,5 +7328,53 @@
         "version": "000739AG"
       }
     ]
+  },
+  "2358": {
+    "downloadMenuId": 6,
+    "name": "    IPC_NT98566_N8H\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-17T04:57:03Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2358__000749Y1__000749Y1.1IPC_NT98566_N8H.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzI=",
+        "filename": "id2358__000749Y1__000749Y1.1IPC_NT98566_N8H.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "15cfb50d1bac1b7ae1e83bacfcb72c872dc009423cedae27711477b3318c0789",
+        "size": 8918376,
+        "version": "000749Y1 "
+      }
+    ]
+  },
+  "2359": {
+    "downloadMenuId": 5,
+    "name": "AHB80N04R-MH-V3\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-17T04:57:15Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2359__0000024U__0000024U\uff08AHB80N04R-MH-V3\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MTQ=",
+        "filename": "id2359__0000024U__0000024U\uff08AHB80N04R-MH-V3\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "27f80b60c30e8c316029c77b7a54f84c448ef92be92821a4d92216fa182a0eae",
+        "size": 15482727,
+        "version": "0000024U"
+      }
+    ]
+  },
+  "2360": {
+    "downloadMenuId": 6,
+    "name": "  IPC_NT98566_N8H-LQ\n",
+    "revisions": [
+      {
+        "archived_at": "2026-08-17T04:57:09Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2360__000749Y2__000749Y2.1IPC_NT98566_N8H-LQ.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzY=",
+        "filename": "id2360__000749Y2__000749Y2.1IPC_NT98566_N8H-LQ.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "20bbbcf0d616d2620558dbd304414070a2d8c1690ed2cf70e6284268f17a39db",
+        "size": 9007556,
+        "version": "000749Y2"
+      }
+    ]
   }
 }
