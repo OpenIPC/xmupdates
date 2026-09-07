@@ -7376,5 +7376,53 @@
         "version": "000749Y2"
       }
     ]
+  },
+  "2401": {
+    "downloadMenuId": 5,
+    "name": "NBD80S16S-KL-V2\n",
+    "revisions": [
+      {
+        "archived_at": "2026-09-07T09:19:42Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2401__N95C5264__N95C5264\uff08NBD80S16S-KL-V2\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE5MDE=",
+        "filename": "id2401__N95C5264__N95C5264\uff08NBD80S16S-KL-V2\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "cd4f1115c6d16ae3e17e0f79d47f546ac8acbacf91067fe74db12f626b184695",
+        "size": 13925232,
+        "version": "N95C5264"
+      }
+    ]
+  },
+  "2411": {
+    "downloadMenuId": 6,
+    "name": "      IPC_GK7205V500_G5SH\n",
+    "revisions": [
+      {
+        "archived_at": "2026-09-07T09:19:29Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2411__000889ZX__000889ZX.1IPC_GK7205V500_G5SH.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NjU=",
+        "filename": "id2411__000889ZX__000889ZX.1IPC_GK7205V500_G5SH.Nat.dss.OnvifS.HIK_V1.00.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "8cb861ed11453d3466f349beaad3c08f3beb40eefc28214227f36d395cf61917",
+        "size": 10446804,
+        "version": "000889ZX"
+      }
+    ]
+  },
+  "2421": {
+    "downloadMenuId": 6,
+    "name": "    IPC_GK7201V200_G4J_S38\n",
+    "revisions": [
+      {
+        "archived_at": "2026-09-07T09:19:35Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2421__000929ZJ__000929ZJ.1IPC_GK7201V200_G4J_S38.Nat.dss.OnvifS.HIK_V1.30.T01.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4OTY=",
+        "filename": "id2421__000929ZJ__000929ZJ.1IPC_GK7201V200_G4J_S38.Nat.dss.OnvifS.HIK_V1.30.T01.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "4e7900e19ad793a6efec6be8f0b9f35c60ef2d9290fde0a6fbde87e023412ff2",
+        "size": 7509115,
+        "version": "000929ZJ"
+      }
+    ]
   }
 }
