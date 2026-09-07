@@ -1535,7 +1535,15 @@
             "name": "AHB80N04R-MH-V3\n",
             "usage": "",
             "version": "0000024U"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE5MDE=",
+            "id": 2401,
+            "name": "NBD80S16S-KL-V2\n",
+            "usage": "",
+            "version": "N95C5264"
         }
     ],
-    "total": 192
+    "total": 193
 }

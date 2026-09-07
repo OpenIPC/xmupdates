@@ -2623,7 +2623,23 @@
             "name": "  IPC_NT98566_N8H-LQ\n",
             "usage": "",
             "version": "000749Y2"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NjU=",
+            "id": 2411,
+            "name": "      IPC_GK7205V500_G5SH\n",
+            "usage": "",
+            "version": "000889ZX"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4OTY=",
+            "id": 2421,
+            "name": "    IPC_GK7201V200_G4J_S38\n",
+            "usage": "",
+            "version": "000929ZJ"
         }
     ],
-    "total": 328
+    "total": 330
 }
