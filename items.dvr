@@ -1543,7 +1543,23 @@
             "name": "NBD80S16S-KL-V2\n",
             "usage": "",
             "version": "N95C5264"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MDk=",
+            "id": 2491,
+            "name": "AHB80N08R-LME-V3\n",
+            "usage": "",
+            "version": "0000024V"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1NjQ=",
+            "id": 2501,
+            "name": "AHB80N04R-GS-V3\n",
+            "usage": "",
+            "version": "C638024T"
         }
     ],
-    "total": 193
+    "total": 195
 }
