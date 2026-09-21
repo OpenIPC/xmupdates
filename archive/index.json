@@ -7504,5 +7504,49 @@
         "version": "000929ZR  "
       }
     ]
+  },
+  "2481": {
+    "downloadMenuId": 6,
+    "name": "  IPC_XM212_X2-WEQ-T_S38_WIFI.Q35343\n",
+    "revisions": [],
+    "unavailable": [
+      {
+        "checked_at": "2026-09-21T09:55:56Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE5MDA=",
+        "version": "0009AA12 "
+      }
+    ]
+  },
+  "2491": {
+    "downloadMenuId": 5,
+    "name": "AHB80N08R-LME-V3\n",
+    "revisions": [
+      {
+        "archived_at": "2026-09-21T09:56:06Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2491__0000024V__0000024V\uff08AHB80N08R-LME-V3\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MDk=",
+        "filename": "id2491__0000024V__0000024V\uff08AHB80N08R-LME-V3\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "d8609e41a3d98878ee33116e434533a198cb44b8205dc296c8e2055282a4e844",
+        "size": 15485607,
+        "version": "0000024V"
+      }
+    ]
+  },
+  "2501": {
+    "downloadMenuId": 5,
+    "name": "AHB80N04R-GS-V3\n",
+    "revisions": [
+      {
+        "archived_at": "2026-09-21T09:56:15Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id2501__C638024T__C638024T\uff08AHB80N04R-GS-V3\uff09.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1NjQ=",
+        "filename": "id2501__C638024T__C638024T\uff08AHB80N04R-GS-V3\uff09.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "7585078e690bf186d419501230b5b7c114b56d281754f46e87734c31cc0f109f",
+        "size": 14795693,
+        "version": "C638024T"
+      }
+    ]
   }
 }
