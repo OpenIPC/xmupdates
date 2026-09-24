@@ -17,6 +17,14 @@ CATALOGS = {
 # on `download.xm030.cn`, so download_firmwares.py is unaffected.
 PAGINATION_URL = "https://baike.jftech.com/download/pagination.do"
 
+# Since late September 2026 the catalog host sits behind Huawei CloudWAF, which
+# answers the default python-requests User-Agent with HTTP 418 and an HTML
+# "访问被拦截" (access blocked) page. A browser User-Agent gets the JSON.
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+}
+
 # The old host served a cert issued for a different domain, expired in 2019. We
 # have not been able to check the new host's cert (it is region-restricted and
 # unreachable from outside CN), so verification stays off.
@@ -27,6 +35,7 @@ def get_rows(param, num):
     r = requests.get(
         PAGINATION_URL,
         params={"page": 1, "rows": num, "paramValue": param},
+        headers=HEADERS,
         verify=False,
         timeout=60,
     )
@@ -75,6 +84,8 @@ def main():
             f"Endpoint: {PAGINATION_URL}\n"
             "The vendor has moved this host before (baike.xm030.cn -> "
             "baike.jftech.com, July 2026); check whether it moved again.\n"
+            "An HTTP 418 with an HTML body is the CloudWAF bot block; check "
+            "whether it now rejects HEADERS too.\n"
             "Archiving of already-known firmware is unaffected and runs anyway.",
             file=sys.stderr,
         )
