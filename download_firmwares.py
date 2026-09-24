@@ -35,6 +35,8 @@ stay on the release indefinitely (downgrades stay possible).
 """
 
 import argparse
+import base64
+import binascii
 import datetime as dt
 import hashlib
 import json
@@ -56,6 +58,10 @@ INDEX_PATH = ROOT / "archive" / "index.json"
 CATALOG_FILES = [ROOT / "items.ipc", ROOT / "items.dvr"]
 RELEASE_TAG = "firmware-archive"
 LANDING_HOST = "download.xm030.cn"
+# In September 2026 the vendor moved every catalog downloadUrl to this host. It
+# serves the same /d/<b64> ids with the same content, and has a valid cert.
+LANDING_HOSTS = (LANDING_HOST, "download.jftech.com")
+LANDING_ID_RE = re.compile(r"/d/([A-Za-z0-9+/=]+)")
 # Vendor hosts ZIPs on either Huawei OBS or Kingsoft Cloud KS3 depending on age.
 ZIP_HOST_SUFFIXES = ("myhuaweicloud.com", "ksyun.com")
 SAFE_NAME_RE = re.compile(r"[^A-Za-z0-9._-]+")
@@ -96,16 +102,36 @@ def load_catalog():
     return rows
 
 
+def landing_key(url):
+    """Identity of a landing page, independent of which vendor host serves it.
+
+    download.xm030.cn and download.jftech.com serve the same /d/<b64> ids, so a
+    host move must not look like a new revision of every row.
+    """
+    url = (url or "").strip()
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+    except ValueError:  # e.g. an unbalanced "[" in the authority
+        return url
+    m = LANDING_ID_RE.fullmatch(parsed.path)
+    if parsed.scheme in ("http", "https") and host in LANDING_HOSTS and m:
+        try:
+            b64 = m.group(1).rstrip("=")
+            return ("landing", int(base64.b64decode(b64 + "=" * (-len(b64) % 4), validate=True)))
+        except (binascii.Error, ValueError):
+            pass
+    return url
+
+
 def revision_seen(index, rid, download_url):
     entry = index.get(rid)
     if not entry:
         return False
-    if any(rev.get("downloadUrl") == download_url for rev in entry.get("revisions", [])):
-        return True
-    if any(u.get("downloadUrl") == download_url for u in entry.get("unavailable", [])):
-        return True
-    if any(d.get("downloadUrl") == download_url for d in entry.get("data_errors", [])):
-        return True
+    key = landing_key(download_url)
+    for section in ("revisions", "unavailable", "data_errors"):
+        if any(landing_key(r.get("downloadUrl")) == key for r in entry.get(section, [])):
+            return True
     return False
 
 
@@ -117,7 +143,11 @@ def session_for(url):
 
 
 def resolve_zip_url(landing_url):
-    parsed = urlparse(landing_url)
+    try:
+        parsed = urlparse(landing_url)
+        parsed.hostname  # raises on a malformed authority
+    except ValueError as e:
+        raise CatalogDataError(f"downloadUrl is not a valid URL: {landing_url!r} ({e})")
     if parsed.scheme not in ("http", "https") or not parsed.netloc:
         raise CatalogDataError(f"downloadUrl is not an http(s) URL: {landing_url!r}")
     s = session_for(landing_url)
@@ -262,7 +292,7 @@ def main():
         landing = (row.get("downloadUrl") or "").strip()
         if not landing:
             continue
-        key = (rid, landing)
+        key = (rid, landing_key(landing))
         if key in seen_in_batch:
             continue
         if revision_seen(index, rid, landing):

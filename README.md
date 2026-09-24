@@ -13,7 +13,9 @@ expired TLS certificate), so this repository keeps a self-updating mirror.
 The vendor rebranded to JFTech and moved the catalog from `baike.xm030.cn` to
 `baike.jftech.com` in July 2026 — the old host, along with the rest of the
 `xm030.cn` zone bar `download.xm030.cn`, no longer resolves. The endpoint itself
-was unchanged, and firmware binaries are still served from `download.xm030.cn`.
+was unchanged. In September 2026 the landing pages moved too, from
+`download.xm030.cn` to `download.jftech.com` (same ids, same content); the
+downloader treats both hosts as one, so the move doesn't re-archive anything.
 
 ## Layout
 
@@ -120,9 +122,9 @@ up at the vendor.
 
 ## Disclaimer
 
-Unofficial mirror, no warranty. The vendor's TLS certificate on
-`download.xm030.cn` is expired; the tooling intentionally disables TLS
-verification only for that host. Mirrored firmware binaries remain the
+Unofficial mirror, no warranty. The vendor's TLS certificate on the
+legacy `download.xm030.cn` host is expired; the tooling intentionally disables
+TLS verification only for that host. Mirrored firmware binaries remain the
 property of XiongMai. Open an issue if you are a rights holder and want
 something removed.
 
