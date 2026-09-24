@@ -47,5 +47,5 @@ Flow inside `download_firmwares.py`:
 - `xmupdates.py` refuses to overwrite a catalog if the vendor returns 0 rows, and exits non-zero if either catalog fails. A `KeyError` or other exception that isn't a `RequestException` means the vendor schema changed, and it is left to crash on purpose.
 - The workflow and `ensure_release_exists()` both contain the logic that creates the `firmware-archive` release. Keep the two in sync.
 - `archive/000529B2/`, `000529E9/` and `000559A7/` hold legacy `.bin` files from before the Releases-based mirror. Don't add to them. `*.zip` is gitignored because firmware binaries belong in Release assets, not git.
-- The bot pushes to `main` every week. Pull before editing `items.*` or `archive/index.json` by hand to avoid conflicts.
+- The bot pushes to `main` most weeks (only when the catalog or index changed). Pull before editing `items.*` or `archive/index.json` by hand to avoid conflicts.
 - The README and `archive/README.md` document the index schema. Update them if the schema changes.
