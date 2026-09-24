@@ -252,7 +252,8 @@ def resolve_zip_url(landing_url):
         if not parsed_href.path.lower().endswith(".zip"):
             continue
         host = (parsed_href.hostname or "").lower()
-        if host in LANDING_HOSTS or any(host.endswith(suffix) for suffix in ZIP_HOST_SUFFIXES):
+        if host in LANDING_HOSTS or any(host == suffix or host.endswith("." + suffix)
+                                        for suffix in ZIP_HOST_SUFFIXES):
             return href
     if any(marker in r.text for marker in OFFLINE_MARKERS):
         raise FirmwareUnavailable("vendor took the firmware offline")
@@ -284,11 +285,27 @@ def safe_token(value):
     return cleaned or "unknown"
 
 
-def asset_name_for(asset_id, version, obs_url, sha256=None):
-    obs_filename = Path(urlparse(obs_url).path).name
-    if sha256:
-        return f"{asset_id}__{safe_token(version)}__{sha256[:8]}__{obs_filename}"
-    return f"{asset_id}__{safe_token(version)}__{obs_filename}"
+def asset_name_for(asset_id, version, obs_url, disambiguator=None):
+    # GitHub silently rewrites asset names with characters outside this set
+    # (e.g. "00000107(NBD7024H-P).zip" -> "00000107.NBD7024H-P.zip"), which
+    # would leave the recorded filename/asset_url pointing at nothing.
+    obs_filename = safe_token(Path(urlparse(obs_url).path).name)
+    parts = [asset_id, safe_token(version)]
+    if disambiguator:
+        parts.append(disambiguator)
+    return "__".join(parts + [obs_filename])
+
+
+def pick_asset_name(existing_assets, asset_id, version, obs_url, sha256):
+    """Return (name, already_uploaded) that never replaces a different binary."""
+    for disambiguator in (None, sha256[:8], sha256):
+        name = asset_name_for(asset_id, version, obs_url, disambiguator)
+        digest = existing_assets.get(name)
+        if digest is None:
+            return name, False
+        if digest == sha256:
+            return name, True
+    raise RuntimeError(f"every candidate asset name for {obs_url} holds a different binary")
 
 
 def gh(*args, check=True, capture=False):
@@ -319,7 +336,8 @@ def existing_release_assets():
         check=False, capture=True,
     )
     if res.returncode != 0:
-        return {}
+        # Without the list we can't tell a free name from someone else's binary.
+        raise RuntimeError(f"cannot list {RELEASE_TAG} assets: {res.stderr.strip()}")
     assets = {}
     for a in json.loads(res.stdout).get("assets", []):
         digest = a.get("digest") or ""
@@ -331,7 +349,10 @@ def upload_asset(local_path, asset_name):
     target = local_path.with_name(asset_name)
     if target != local_path:
         shutil.move(str(local_path), target)
-    gh("release", "upload", RELEASE_TAG, str(target), "--clobber")
+    # No --clobber: pick_asset_name() only hands out free names, and if the
+    # asset list was stale the upload fails (and is retried) instead of
+    # replacing an existing binary.
+    gh("release", "upload", RELEASE_TAG, str(target))
     return target
 
 
@@ -393,7 +414,14 @@ def main():
     slug = repo_slug()
     if not args.dry_run:
         ensure_release_exists()
-    existing_assets = existing_release_assets()
+    try:
+        existing_assets = existing_release_assets()
+    except RuntimeError as e:
+        if not args.dry_run:
+            print(f"Aborting: {e}", file=sys.stderr)
+            return 1
+        print(f"warning: {e}; dry run continues without it", file=sys.stderr)
+        existing_assets = {}
     successes = 0
     failures = 0
     since_commit = 0
@@ -472,17 +500,16 @@ def main():
                     tmp_path = Path(td) / Path(urlparse(obs_url).path).name
                     sha256, size = download_zip(obs_url, tmp_path)
                     print(f"  sha256={sha256}  size={size}")
-                    # `gh release upload --clobber` would silently replace a
-                    # different binary that happens to share the name.
-                    if existing_assets.get(asset_name) == sha256:
+                    picked, uploaded_already = pick_asset_name(
+                        existing_assets, item["asset_id"], version, obs_url, sha256)
+                    if picked != asset_name:
+                        print(f"  name taken by a different binary; using {picked}")
+                    asset_name = picked
+                    if uploaded_already:
                         print("  identical asset already on the release; reusing it.")
                     else:
-                        if asset_name in existing_assets:
-                            asset_name = asset_name_for(item["asset_id"], version,
-                                                        obs_url, sha256)
-                            print(f"  name taken by a different binary; using {asset_name}")
-                        uploaded = upload_asset(tmp_path, asset_name)
-                        existing_assets[uploaded.name] = sha256
+                        upload_asset(tmp_path, asset_name)
+                        existing_assets[asset_name] = sha256
             except FirmwareUnavailable as e:
                 print(f"  CDN reports binary missing ({e}); recording in index.")
                 record_unavailable(item)

@@ -111,7 +111,8 @@ appended rather than replacing the old one.
 
 Portal entries (`p<id>`) carry `"source": "portal"` and `titleId` instead of
 `downloadMenuId`, and their `name` is the portal row's `description`. Asset
-names start with the key (`id2281__…` / `p1475__…`). `zip_url` is only present
+names start with the key (`id2281__…` / `p1475__…`) and only use
+`[A-Za-z0-9._-]`; always take the link from `asset_url` rather than building it. `zip_url` is only present
 on revisions archived since it was added. Entries may also hold `unavailable`
 (the vendor took the file offline) and `data_errors` (malformed row) lists.
 

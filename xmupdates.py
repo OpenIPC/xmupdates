@@ -2,6 +2,7 @@
 
 import json
 import math
+import os
 import sys
 
 import httpx
@@ -111,6 +112,10 @@ def portal_title_rows(client, title_id):
         page += 1
     if len(rows) != total:
         raise PortalError(f"titleId={title_id}: got {len(rows)} rows, total={total}")
+    if not rows:
+        # A section that suddenly lists nothing is far more likely an outage
+        # than the vendor deleting it; don't let it wipe that section's rows.
+        raise PortalError(f"titleId={title_id}: returned no rows")
     return rows
 
 
@@ -136,9 +141,16 @@ def fetch_portal():
 
 
 def write_json(fname, data):
-    with open(fname, "w") as f:
-        json.dump(data, f, sort_keys=True, indent=4)
-        f.write("\n")
+    # Atomic, so an interrupted write can't leave a truncated catalog behind.
+    tmp = f"{fname}.tmp"
+    try:
+        with open(tmp, "w") as f:
+            json.dump(data, f, sort_keys=True, indent=4)
+            f.write("\n")
+        os.replace(tmp, fname)
+    finally:
+        if os.path.exists(tmp):
+            os.remove(tmp)
 
 
 def main():
