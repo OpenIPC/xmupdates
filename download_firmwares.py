@@ -109,9 +109,13 @@ def landing_key(url):
     host move must not look like a new revision of every row.
     """
     url = (url or "").strip()
-    parsed = urlparse(url)
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+    except ValueError:  # e.g. an unbalanced "[" in the authority
+        return url
     m = LANDING_ID_RE.fullmatch(parsed.path)
-    if (parsed.hostname or "").lower() in LANDING_HOSTS and m:
+    if parsed.scheme in ("http", "https") and host in LANDING_HOSTS and m:
         try:
             b64 = m.group(1).rstrip("=")
             return ("landing", int(base64.b64decode(b64 + "=" * (-len(b64) % 4), validate=True)))
@@ -139,7 +143,11 @@ def session_for(url):
 
 
 def resolve_zip_url(landing_url):
-    parsed = urlparse(landing_url)
+    try:
+        parsed = urlparse(landing_url)
+        parsed.hostname  # raises on a malformed authority
+    except ValueError as e:
+        raise CatalogDataError(f"downloadUrl is not a valid URL: {landing_url!r} ({e})")
     if parsed.scheme not in ("http", "https") or not parsed.netloc:
         raise CatalogDataError(f"downloadUrl is not an http(s) URL: {landing_url!r}")
     s = session_for(landing_url)
@@ -284,7 +292,7 @@ def main():
         landing = (row.get("downloadUrl") or "").strip()
         if not landing:
             continue
-        key = (rid, landing)
+        key = (rid, landing_key(landing))
         if key in seen_in_batch:
             continue
         if revision_seen(index, rid, landing):
