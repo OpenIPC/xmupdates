@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name  "xmupdates-bot"
           git config user.email "actions@github.com"
-          git add items.ipc items.dvr
+          git add items.ipc items.dvr items.portal
           if git diff --cached --quiet; then
             echo "Catalog unchanged."
           else
