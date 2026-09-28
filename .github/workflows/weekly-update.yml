@@ -106,3 +106,27 @@ jobs:
 
       - name: Push tail commits
         run: git push || true
+
+  push-openipc-org:
+    # Tell openipc.org what the archive now holds: its board catalogue offers
+    # every stock build per device ID (push_openipc_org.py). Runs after the
+    # archive job whatever it managed, since a partial run still changed the
+    # index.
+    needs: download-firmwares
+    # Only a run on main may push: openipc.org takes this token from
+    # weekly-update.yml on main alone, and a run dispatched from another
+    # branch would be refused.
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python push_openipc_org.py

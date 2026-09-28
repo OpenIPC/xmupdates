@@ -33,6 +33,7 @@ firmware it lacks (notably YK-style DVR/NVR builds). It is mirrored into
 | [`archive/<prefix>/`](archive) | Legacy folders from before the Releases-based mirror. Not added to. |
 | [`xmupdates.py`](xmupdates.py) | Refreshes `items.ipc` / `items.dvr` from the vendor pagination endpoint, and `items.portal` from the portal API. |
 | [`download_firmwares.py`](download_firmwares.py) | Downloads catalog and portal rows that aren't yet in `archive/index.json` and uploads them as Release assets. |
+| [`push_openipc_org.py`](push_openipc_org.py) | Pushes the archive's list to [openipc.org](https://openipc.org/cameras/boards), whose board catalogue offers every stock build per device ID. Runs at the end of the weekly workflow over a GitHub OIDC token; no secret. |
 
 ### Catalog row schema
 
