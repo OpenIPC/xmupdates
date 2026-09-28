@@ -11378,5 +11378,41 @@
     ],
     "source": "portal",
     "titleId": 25
+  },
+  "p2182": {
+    "name": "IPC_RV1103_LPG-R4C-4GQ-C_4G.Nat_V5.01.C02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:59:32Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p2182__000A79WC.1__000A79WC.1IPC_RV1103_LPG-R4C-4GQ-C_4G.Nat_V5.01.C02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4Njk=",
+        "filename": "p2182__000A79WC.1__000A79WC.1IPC_RV1103_LPG-R4C-4GQ-C_4G.Nat_V5.01.C02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "f5961fc148399c9e8b1663200f14069dfdb06d7cb717735ca303168d3f762ce9",
+        "size": 10938877,
+        "version": "000A79WC.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000A79WC.1IPC_RV1103_LPG-R4C-4GQ-C_4G.Nat_V5.01.C02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p2188": {
+    "name": "NBD80S16S-KL_YK",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:59:39Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p2188__C6380233__C6380233_NBD80S16S-KL_YK_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE4NzQ=",
+        "filename": "p2188__C6380233__C6380233_NBD80S16S-KL_YK_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "44decb32a59384710b5206c5e253dbc3b517b636e843e60e04e185bae5579056",
+        "size": 13233703,
+        "version": "C6380233",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380233\uff08NBD80S16S-KL_YK\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
   }
 }
