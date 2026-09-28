@@ -69,6 +69,13 @@ ROOT = Path(__file__).resolve().parent
 INDEX_PATH = ROOT / "archive" / "index.json"
 CATALOG_FILES = [ROOT / "items.ipc", ROOT / "items.dvr"]
 PORTAL_FILE = ROOT / "items.portal"
+# cctvsp.ru's firmware archive (cctvsp.py): the seller's own builds, several
+# for device IDs whose firmware the vendor withdrew. Archived like the vendor's,
+# pushed to openipc.org with the archive named as their origin.
+CCTVSP_FILE = ROOT / "items.cctvsp"
+CCTVSP_ORIGIN = "cctvsp.ru"
+# The only host a cctvsp.ru download may come from, redirects included.
+CCTVSP_HOSTS = ("www.cctvsp.ru", "cctvsp.ru")
 RELEASE_TAG = "firmware-archive"
 LANDING_HOST = "download.xm030.cn"
 # In September 2026 the vendor moved every catalog downloadUrl to this host. It
@@ -154,7 +161,38 @@ def portal_items():
     return items
 
 
-def pending_items(index, catalog, portal):
+def cctvsp_items():
+    """cctvsp.ru's rows, keyed c{item id}. Its test builds are not archived."""
+    if not CCTVSP_FILE.exists():
+        return []
+    with CCTVSP_FILE.open() as f:
+        data = json.load(f)
+    items = []
+    for row in sorted(data["rows"], key=lambda r: r["id"]):
+        filename = (row.get("filename") or "").strip()
+        if not filename or filename.lower().startswith("test_"):
+            continue
+        key = f"c{row['id']}"
+        items.append({
+            "source": "cctvsp",
+            "key": key,
+            "asset_id": key,
+            "label": f"cctvsp {key}",
+            # The device ID first, as the vendor's versions have it: the push
+            # reads it from the version's first eight characters.
+            "version": f"{row['device_id']}.{(row.get('version') or row.get('updated') or '0').strip()}",
+            # The download link, not the page: its hash changes with the file,
+            # so a replaced build becomes a new revision.
+            "landing": (row.get("downloadUrl") or "").strip(),
+            "filename": filename,
+            "published": row.get("updated"),
+            "meta": {"name": Path(filename).stem, "source": "cctvsp",
+                     "origin": CCTVSP_ORIGIN, "page": row.get("page")},
+        })
+    return items
+
+
+def pending_items(index, catalog, portal, cctvsp=()):
     """Rows to process this run: catalog and portal interleaved."""
     pending_catalog = []
     seen_in_batch = set()
@@ -189,9 +227,11 @@ def pending_items(index, catalog, portal):
         taken.add(lkey)
         pending_portal.append(item)
 
-    # Round-robin, so rows that keep failing on one side can't starve the other.
-    return [i for pair in itertools.zip_longest(pending_catalog, pending_portal)
-            for i in pair if i is not None]
+    pending_cctvsp = [i for i in cctvsp if i["landing"] and not revision_seen(index, i["key"], i["landing"])]
+
+    # Round-robin, so rows that keep failing on one side can't starve the others.
+    return [i for group in itertools.zip_longest(pending_catalog, pending_portal, pending_cctvsp)
+            for i in group if i is not None]
 
 
 def landing_key(url):
@@ -262,11 +302,31 @@ def resolve_zip_url(landing_url):
     )
 
 
-def download_zip(url, dest):
+def seller_download(url):
+    """A cctvsp.ru row's download link, checked like a vendor landing page:
+    https on the seller's own host, or the row is a data error."""
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+    except ValueError as e:
+        raise CatalogDataError(f"download link is not a valid URL: {url!r} ({e})")
+    if parsed.scheme != "https" or host not in CCTVSP_HOSTS:
+        raise CatalogDataError(f"download link is not https on {'/'.join(CCTVSP_HOSTS)}: {url!r}")
+    return url
+
+
+def download_zip(url, dest, hosts=None):
+    """Download url to dest; with hosts, every hop of a redirect and the final
+    answer must be on one of them."""
     s = session_for(url)
     sha = hashlib.sha256()
     size = 0
     with s.get(url, stream=True, timeout=300) as r:
+        if hosts is not None:
+            for hop in [*r.history, r]:
+                host = (urlparse(hop.url).hostname or "").lower()
+                if urlparse(hop.url).scheme != "https" or host not in hosts:
+                    raise RuntimeError(f"{url} led to {hop.url}, not https on {'/'.join(hosts)}")
         if r.status_code in (404, 410):
             raise FirmwareUnavailable(f"CDN returned {r.status_code} for {url}")
         r.raise_for_status()
@@ -285,21 +345,22 @@ def safe_token(value):
     return cleaned or "unknown"
 
 
-def asset_name_for(asset_id, version, obs_url, disambiguator=None):
+def asset_name_for(asset_id, version, obs_url, disambiguator=None, filename=None):
     # GitHub silently rewrites asset names with characters outside this set
     # (e.g. "00000107(NBD7024H-P).zip" -> "00000107.NBD7024H-P.zip"), which
     # would leave the recorded filename/asset_url pointing at nothing.
-    obs_filename = safe_token(Path(urlparse(obs_url).path).name)
+    # A download link that is a query (cctvsp.ru's) names its file separately.
+    obs_filename = safe_token(filename or Path(urlparse(obs_url).path).name)
     parts = [asset_id, safe_token(version)]
     if disambiguator:
         parts.append(disambiguator)
     return "__".join(parts + [obs_filename])
 
 
-def pick_asset_name(existing_assets, asset_id, version, obs_url, sha256):
+def pick_asset_name(existing_assets, asset_id, version, obs_url, sha256, filename=None):
     """Return (name, already_uploaded) that never replaces a different binary."""
     for disambiguator in (None, sha256[:8], sha256):
-        name = asset_name_for(asset_id, version, obs_url, disambiguator)
+        name = asset_name_for(asset_id, version, obs_url, disambiguator, filename)
         digest = existing_assets.get(name)
         if digest is None:
             return name, False
@@ -403,7 +464,7 @@ def parse_args():
 def main():
     args = parse_args()
     index = load_index()
-    pending = pending_items(index, catalog_items(), portal_items())
+    pending = pending_items(index, catalog_items(), portal_items(), cctvsp_items())
     if args.max_per_run > 0:
         pending = pending[: args.max_per_run]
 
@@ -468,7 +529,9 @@ def main():
                     f"portal landing page is not on {' / '.join(LANDING_HOSTS)}; "
                     "has the vendor moved its download host?")
             try:
-                obs_url = resolve_zip_url(landing)
+                # cctvsp.ru links its file directly; the vendor's landing
+                # pages are scraped for theirs.
+                obs_url = seller_download(landing) if item["source"] == "cctvsp" else resolve_zip_url(landing)
             except FirmwareUnavailable:
                 print("  vendor reports firmware offline; recording in index.")
                 record_unavailable(item)
@@ -485,7 +548,8 @@ def main():
                 maybe_commit()
                 data_error_count += 1
                 continue
-            asset_name = asset_name_for(item["asset_id"], version, obs_url)
+            filename = item.get("filename")
+            asset_name = asset_name_for(item["asset_id"], version, obs_url, filename=filename)
             print(f"  zip: {obs_url}")
             print(f"  asset: {asset_name}")
 
@@ -497,11 +561,12 @@ def main():
 
             try:
                 with tempfile.TemporaryDirectory() as td:
-                    tmp_path = Path(td) / Path(urlparse(obs_url).path).name
-                    sha256, size = download_zip(obs_url, tmp_path)
+                    tmp_path = Path(td) / safe_token(filename or Path(urlparse(obs_url).path).name)
+                    sha256, size = download_zip(obs_url, tmp_path,
+                                                CCTVSP_HOSTS if item["source"] == "cctvsp" else None)
                     print(f"  sha256={sha256}  size={size}")
                     picked, uploaded_already = pick_asset_name(
-                        existing_assets, item["asset_id"], version, obs_url, sha256)
+                        existing_assets, item["asset_id"], version, obs_url, sha256, filename)
                     if picked != asset_name:
                         print(f"  name taken by a different binary; using {picked}")
                     asset_name = picked
@@ -516,7 +581,7 @@ def main():
                 unavailable_count += 1
                 continue
 
-            entry_for(item).setdefault("revisions", []).append({
+            revision = {
                 "version": version,
                 "downloadUrl": landing,
                 "filename": asset_name,
@@ -526,7 +591,11 @@ def main():
                 "asset_url": asset_url(slug, asset_name),
                 "zip_url": obs_url,
                 "archived_at": now(),
-            })
+            }
+            if item.get("published"):
+                # When the seller says it published the build (cctvsp.ru's "Обновлено").
+                revision["published_at"] = item["published"] + "T00:00:00Z"
+            entry_for(item).setdefault("revisions", []).append(revision)
             save_index(index)
             successes += 1
             since_commit += 1

@@ -22,6 +22,15 @@ A second list, the [JFTech portal](https://en.jftech.com/#/softwareDownloads)
 firmware it lacks (notably YK-style DVR/NVR builds). It is mirrored into
 `items.portal`.
 
+A third list is not the vendor's: [cctvsp.ru's firmware archive](https://www.cctvsp.ru/support/proshivki),
+a Russian seller's library of about forty builds keyed by device ID, several
+for device IDs whose firmware the vendor has withdrawn. Every file there is the
+seller's own build (`IPEYE_…`: the vendor firmware with the IPeye cloud
+service added), not stock. It is mirrored into `items.cctvsp`, archived under
+`c<item id>` keys marked with `"origin": "cctvsp.ru"`, and openipc.org shows
+such a build as the seller's, only for a device ID with no vendor build. Its
+`test_…` builds are not archived.
+
 ## Layout
 
 | File | What it is |
@@ -29,10 +38,12 @@ firmware it lacks (notably YK-style DVR/NVR builds). It is mirrored into
 | [`items.ipc`](items.ipc) | JSON catalog of IP-camera firmwares from XM030. |
 | [`items.dvr`](items.dvr) | JSON catalog of DVR/NVR firmwares from XM030. |
 | [`items.portal`](items.portal) | JSON list of firmwares from the en.jftech.com portal (IPC and DVR/NVR). |
+| [`items.cctvsp`](items.cctvsp) | JSON list of cctvsp.ru's firmware pages (the seller's own IPeye builds): device ID, title, updated date, version, file name, download link. |
 | [`archive/index.json`](archive/index.json) | Map from catalog `id` (or `p<portal id>`) to mirrored binaries on this repo's `firmware-archive` release. |
 | [`archive/<prefix>/`](archive) | Legacy folders from before the Releases-based mirror. Not added to. |
 | [`xmupdates.py`](xmupdates.py) | Refreshes `items.ipc` / `items.dvr` from the vendor pagination endpoint, and `items.portal` from the portal API. |
-| [`download_firmwares.py`](download_firmwares.py) | Downloads catalog and portal rows that aren't yet in `archive/index.json` and uploads them as Release assets. |
+| [`cctvsp.py`](cctvsp.py) | Refreshes `items.cctvsp` from cctvsp.ru's archive pages; all-or-nothing. |
+| [`download_firmwares.py`](download_firmwares.py) | Downloads catalog, portal and cctvsp rows that aren't yet in `archive/index.json` and uploads them as Release assets. |
 | [`push_openipc_org.py`](push_openipc_org.py) | Pushes the archive's list to [openipc.org](https://openipc.org/cameras/boards), whose board catalogue offers every stock build per device ID. Runs at the end of the weekly workflow over a GitHub OIDC token; no secret. |
 
 ### Catalog row schema
@@ -117,6 +128,13 @@ names start with the key (`id2281__…` / `p1475__…`) and only use
 on revisions archived since it was added. Entries may also hold `unavailable`
 (the vendor took the file offline) and `data_errors` (malformed row) lists.
 
+cctvsp entries (`c<id>`) carry `"source": "cctvsp"`, `"origin": "cctvsp.ru"`
+and `page` (the file's page there); their `name` is the file name without its
+extension, each revision's `downloadUrl` is the seller's download link (its
+hash changes when the file does, which makes a new revision), its version is
+`<device ID>.<the page's version>`, and `published_at` is the page's
+"Обновлено" date.
+
 When a landing page appears in both sources, the catalog row wins and the
 portal row is not archived separately. Known limitations: if the content
 behind an already-recorded landing page changes, it is not archived again under
@@ -141,11 +159,11 @@ jq -r '.["p1475"].revisions[-1].asset_url' archive/index.json | xargs curl -LO
 A weekly GitHub Actions workflow ([`weekly-update.yml`](.github/workflows/weekly-update.yml))
 runs every Monday and:
 
-1. Refreshes `items.ipc` / `items.dvr` / `items.portal` and commits any diff.
+1. Refreshes `items.ipc` / `items.dvr` / `items.portal` / `items.cctvsp` and commits any diff.
 2. Walks the catalog and portal lists for rows whose `(key, downloadUrl)` is
    not yet in `archive/index.json`, downloads the ZIP, uploads it to the
    rolling `firmware-archive` GitHub Release, and appends a revision to the
-   index. Catalog and portal rows are interleaved within each run.
+   index. Catalog, portal and cctvsp rows are interleaved within each run.
 
 The download job is paced (`--max-per-run 25` by default) so the initial
 backfill spreads across many cron ticks rather than hammering the vendor

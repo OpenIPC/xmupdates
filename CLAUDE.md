@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A self-updating mirror of the XiongMai / JFTech IP-camera and DVR firmware catalogs, maintained for OpenIPC. It is mostly data (`items.ipc`, `items.dvr`, `items.portal`, `archive/index.json`) plus two standalone Python scripts run by a weekly GitHub Actions cron. Most commits are made by `xmupdates-bot`, not by people.
+A self-updating mirror of the XiongMai / JFTech IP-camera and DVR firmware catalogs, maintained for OpenIPC. It is mostly data (`items.ipc`, `items.dvr`, `items.portal`, `items.cctvsp`, `archive/index.json`) plus standalone Python scripts run by a weekly GitHub Actions cron. Most commits are made by `xmupdates-bot`, not by people.
 
 There is no test suite, linter config, or build step.
 
@@ -58,3 +58,4 @@ Flow inside `download_firmwares.py`:
 - Known limitations of the cross-source dedupe: if the content behind an already-recorded landing page changes, it isn't re-archived under another key; if the catalog later adds a landing page first archived from the portal, it gets archived twice.
 - The bot pushes to `main` most weeks (only when the catalog or index changed). Pull before editing `items.*` or `archive/index.json` by hand to avoid conflicts.
 - The README and `archive/README.md` document the index schema. Update them if the schema changes.
+- **cctvsp.ru is a seller, not the vendor.** `cctvsp.py` refreshes `items.cctvsp` from https://www.cctvsp.ru/support/proshivki (paginated; one page per device ID; the download link's `title` attribute carries the file name, its `item_id` the key). Every file there is the seller's own IPeye build (`IPEYE_…`), so index entries `c<id>` carry `"origin": "cctvsp.ru"` and `page`, and `push_openipc_org.py` sends both: openipc.org shows such a build as the seller's, and only for a device ID the vendor has no build for. `test_…` builds are skipped. A cctvsp revision is keyed by its download link (whose hash changes with the file) and records the page's date as `published_at`. The write is all-or-nothing like the portal's, and fails closed: the list's page count comes from its `.zoo-pagination` block (required) and every page up to it is fetched by number; an item page without a file name, a parseable "Обновлено" date or a version stops the refresh; a download link must be https on www.cctvsp.ru. The downloader checks the link again (else `data_errors`) and every redirect hop of the download against `CCTVSP_HOSTS`.

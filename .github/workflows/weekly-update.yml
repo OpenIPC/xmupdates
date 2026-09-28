@@ -41,13 +41,20 @@ jobs:
       - name: Refresh catalog
         run: python xmupdates.py
 
+      # cctvsp.ru's firmware archive: the seller's own builds, several for
+      # device IDs the vendor withdrew (cctvsp.py). Its own step, so a failure
+      # of either source leaves the other's refresh committed.
+      - name: Refresh cctvsp.ru archive
+        if: always()
+        run: python cctvsp.py
+
       # Runs even if one catalog failed to refresh, so partial progress isn't lost.
       - name: Commit catalog if changed
         if: always()
         run: |
           git config user.name  "xmupdates-bot"
           git config user.email "actions@github.com"
-          git add items.ipc items.dvr items.portal
+          git add items.ipc items.dvr items.portal items.cctvsp
           if git diff --cached --quiet; then
             echo "Catalog unchanged."
           else

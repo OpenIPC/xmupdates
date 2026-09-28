@@ -49,8 +49,14 @@ def items(index):
                 it["sha256"] = r["sha256"].lower()
             if r.get("size"):
                 it["size"] = r["size"]
-            if r.get("archived_at"):
-                it["published_at"] = r["archived_at"]
+            if r.get("published_at") or r.get("archived_at"):
+                it["published_at"] = r.get("published_at") or r["archived_at"]
+            if e.get("origin"):
+                # Mirrored from a seller's archive (cctvsp.ru), not the vendor:
+                # the site shows such a build as the seller's, never as stock.
+                it["origin"] = e["origin"]
+                if e.get("page"):
+                    it["origin_url"] = e["page"]
             out.append(it)
     return out
 
