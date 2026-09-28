@@ -8623,5 +8623,155 @@
     ],
     "source": "portal",
     "titleId": 21
+  },
+  "p1802": {
+    "name": "IPC_XM530V200_X4C-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:29:04Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1802__000807D9.1__000807D9.1IPC_XM530V200_X4C-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2OTQ=",
+        "filename": "p1802__000807D9.1__000807D9.1IPC_XM530V200_X4C-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "6a3dc918eda3c17187f44d55ba881c828a67684e7b4065ae41acc4b554316165",
+        "size": 7538275,
+        "version": "000807D9.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807D9.1IPC_XM530V200_X4C-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1803": {
+    "name": "DVB6504E-P",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:05Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMjY=",
+        "version": "C6380066"
+      }
+    ]
+  },
+  "p1804": {
+    "name": "MBD6032E-B",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:07Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMjc=",
+        "version": "C6380069"
+      }
+    ]
+  },
+  "p1805": {
+    "name": "MBD6816T-B",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:08Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMjg=",
+        "version": "C6380071"
+      }
+    ]
+  },
+  "p1806": {
+    "name": "NBD7024H-P",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:29:16Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1806__C6380107__C6380107_NBD7024H-P_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMjk=",
+        "filename": "p1806__C6380107__C6380107_NBD7024H-P_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "a9765c4c3c303d67915fba444ade04424da4481825f096f46cdc4d91c31a5d04",
+        "size": 12892797,
+        "version": "C6380107",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380107(NBD7024H-P).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1807": {
+    "name": "NBD7816T-F",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:17Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzA=",
+        "version": "C6380109"
+      }
+    ]
+  },
+  "p1808": {
+    "name": "NBD7816T-FS",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:18Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzE=",
+        "version": "C6380113"
+      }
+    ]
+  },
+  "p1809": {
+    "name": "AHB7004T-EL",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:19Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzI=",
+        "version": "C6380117"
+      }
+    ]
+  },
+  "p1810": {
+    "name": "NBD7804T-F",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:29:25Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1810__C6380118__C6380118_NBD7804T-F_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzM=",
+        "filename": "p1810__C6380118__C6380118_NBD7804T-F_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "149407fa85c72ba04940d8fad2781c3fdb078c6e7a07b391532aa235cdc625f4",
+        "size": 7394630,
+        "version": "C6380118",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380118(NBD7804T-F).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1811": {
+    "name": "NBD7808T-PL",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:29:31Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1811__C6380119__C6380119_NBD7808T-PL_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzQ=",
+        "filename": "p1811__C6380119__C6380119_NBD7808T-PL_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "4feb3d9ceff222abfbfee696ea6f8ff9e3943b734d5ef308f59f777e9fd55371",
+        "size": 7503779,
+        "version": "C6380119",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380119(NBD7808T-PL).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
   }
 }
