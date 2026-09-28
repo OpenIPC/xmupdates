@@ -10118,5 +10118,185 @@
     ],
     "source": "portal",
     "titleId": 22
+  },
+  "p1902": {
+    "name": "NBD80X08S-QWG",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:43:51Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1902__C638023E__C638023E_NBD80X08S-QWG_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEzODA=",
+        "filename": "p1902__C638023E__C638023E_NBD80X08S-QWG_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ee48f5187377c012736af34ed72436deb5ad269bbe8414b33b8fc0e1dedc77d5",
+        "size": 13745934,
+        "version": "C638023E",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023E(NBD80X08S-QWG).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1903": {
+    "name": "NBD89X04T-PL-XPOE",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:43:58Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1903__C638023F__C638023F_NBD89X04T-PL-XPOE_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MTY=",
+        "filename": "p1903__C638023F__C638023F_NBD89X04T-PL-XPOE_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "a6f3fe714bbac8586913ad451c7a10287854679fbb19b858e3937a2985180b41",
+        "size": 10709918,
+        "version": "C638023F",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023F(NBD89X04T-PL-XPOE).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1904": {
+    "name": "AHB80N16T-LM",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:05Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1904__C638023G__C638023G_AHB80N16T-LM_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEzNjk=",
+        "filename": "p1904__C638023G__C638023G_AHB80N16T-LM_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "32467f814f050a7b8e22b5b36d51593bb36ce39d89f8c7b24762739776e8d314",
+        "size": 13515500,
+        "version": "C638023G",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023G\uff08AHB80N16T-LM\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1905": {
+    "name": "AHB80N04T-GL",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:13Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1905__C638023H__C638023H_AHB80N04T-GL_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEzNzY=",
+        "filename": "p1905__C638023H__C638023H_AHB80N04T-GL_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "303aac083d9abe48aa6ed1b276dee8ffef766370974d5530762b88f9510ee882",
+        "size": 12906551,
+        "version": "C638023H",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023H\uff08AHB80N04T-GL\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1906": {
+    "name": "AHB80N16T-LM-V2",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:20Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1906__C638023M__C638023M_AHB80N16T-LM-V2_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEzODU=",
+        "filename": "p1906__C638023M__C638023M_AHB80N16T-LM-V2_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ba5348d40e2a511bf3363fe8ba53b5ff47c33433caef79435aa3caa83e7a1005",
+        "size": 12798727,
+        "version": "C638023M",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023M\uff08AHB80N16T-LM-V2\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1907": {
+    "name": "AHB80N16T-LME-V2",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:27Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1907__C638023N__C638023N_AHB80N16T-LME-V2_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MDQ=",
+        "filename": "p1907__C638023N__C638023N_AHB80N16T-LME-V2_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "7f48f424e2041ec83d7c3dfa26053c1b2a087c434f3f3338d350d8f03200d4c6",
+        "size": 12790207,
+        "version": "C638023N",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023N\uff08AHB80N16T-LME-V2\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1908": {
+    "name": "NBD9008N-QW",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:34Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1908__C638023O__C638023O_NBD9008N-QW_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MzQ=",
+        "filename": "p1908__C638023O__C638023O_NBD9008N-QW_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "7de7a1503826ef9767dadf7627bdac8e3763562d923017ead37af092fb95c8c6",
+        "size": 13169996,
+        "version": "C638023O",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023O(NBD9008N-QW).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1909": {
+    "name": "AHB88N04R-LM",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:42Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1909__C638023P__C638023P_AHB88N04R-LM_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MTA=",
+        "filename": "p1909__C638023P__C638023P_AHB88N04R-LM_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "275616ec52d6e721212671e07dd1526563916f8e3aa5d34e2ba5a05424cd0937",
+        "size": 7814125,
+        "version": "C638023P",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023P\uff08AHB88N04R-LM\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1910": {
+    "name": "NBD80S08S-QWG",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:49Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1910__C638023W__C638023W_NBD80S08S-QWG_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1MTE=",
+        "filename": "p1910__C638023W__C638023W_NBD80S08S-QWG_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "3a114cd0a45f4a2d2ddb720bcfc0680d549435c42b667a2f9ea7c0abac0b07c7",
+        "size": 12494171,
+        "version": "C638023W",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023W\uff08NBD80S08S-QWG\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1911": {
+    "name": "NBD80N32RA-KL",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:44:56Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1911__C638023X__C638023X_NBD80N32RA-KL_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0NDg=",
+        "filename": "p1911__C638023X__C638023X_NBD80N32RA-KL_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "53b12f293faba66d855bddb0f48de961bfe8a33769b044d6c97bfc8c8f3b89cc",
+        "size": 12711252,
+        "version": "C638023X",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638023X\uff08NBD80N32RA-KL\uff09.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
   }
 }
