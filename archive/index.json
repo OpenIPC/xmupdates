@@ -8903,5 +8903,145 @@
         "version": "C6380140"
       }
     ]
+  },
+  "p1822": {
+    "name": "NBD8008T-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:45Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDU=",
+        "version": "C6380141"
+      }
+    ]
+  },
+  "p1823": {
+    "name": "AHB7004T-MH-V2",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:29:52Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1823__C6380142__C6380142_AHB7004T-MH-V2_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDY=",
+        "filename": "p1823__C6380142__C6380142_AHB7004T-MH-V2_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "3a92f55be875d5d0e5b635b03993a9f1af06878a1540ec62073b07bc18d9ee0f",
+        "size": 12312832,
+        "version": "C6380142",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380142(AHB7004T-MH-V2).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1824": {
+    "name": "AHB7016T-MH-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:53Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDc=",
+        "version": "C6380146"
+      }
+    ]
+  },
+  "p1825": {
+    "name": "AHB7804R-MH-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:54Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDg=",
+        "version": "C6380149"
+      }
+    ]
+  },
+  "p1826": {
+    "name": "AHB7804R-MH-V3",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:30:00Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1826__C638014A__C638014A_AHB7804R-MH-V3_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEwMTk=",
+        "filename": "p1826__C638014A__C638014A_AHB7804R-MH-V3_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "1ebc5d54f3592c90d1dd0e9dbc01c4d2575504feeeb371035591428f88ead285",
+        "size": 7786672,
+        "version": "C638014A",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C638014A(AHB7804R-MH-V3).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1827": {
+    "name": "AHB7808R-MH-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:01Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDk=",
+        "version": "C6380151"
+      }
+    ]
+  },
+  "p1828": {
+    "name": "NBD8904T-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:02Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTA=",
+        "version": "C6380152"
+      }
+    ]
+  },
+  "p1829": {
+    "name": "NBD8908T-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:03Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTE=",
+        "version": "C6380153"
+      }
+    ]
+  },
+  "p1830": {
+    "name": "AHB7032F-LM-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:04Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTI=",
+        "version": "C6380155"
+      }
+    ]
+  },
+  "p1831": {
+    "name": "AHB7808R-MS-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:05Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTM=",
+        "version": "C6380156"
+      }
+    ]
   }
 }
