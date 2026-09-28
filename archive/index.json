@@ -8773,5 +8773,135 @@
     ],
     "source": "portal",
     "titleId": 22
+  },
+  "p1812": {
+    "name": "NBD7008T-PL",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:33Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzU=",
+        "version": "C6380121"
+      }
+    ]
+  },
+  "p1813": {
+    "name": "NBD7804R-F",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:34Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzY=",
+        "version": "C6380124"
+      }
+    ]
+  },
+  "p1814": {
+    "name": "NBD7908T-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:35Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzc=",
+        "version": "C6380125"
+      }
+    ]
+  },
+  "p1815": {
+    "name": "NBD7904T-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:36Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzg=",
+        "version": "C6380127"
+      }
+    ]
+  },
+  "p1816": {
+    "name": "NBD7904T-PL",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:37Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyMzk=",
+        "version": "C6380128"
+      }
+    ]
+  },
+  "p1817": {
+    "name": "NBD7904T-P",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:38Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDA=",
+        "version": "C6380129"
+      }
+    ]
+  },
+  "p1818": {
+    "name": "NBD8004T-QT",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:40Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDE=",
+        "version": "C6380130"
+      }
+    ]
+  },
+  "p1819": {
+    "name": "AHB7804R-LMS",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:41Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDI=",
+        "version": "C6380131"
+      }
+    ]
+  },
+  "p1820": {
+    "name": "NBD8032H-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:42Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDM=",
+        "version": "C6380136"
+      }
+    ]
+  },
+  "p1821": {
+    "name": "AHB7008T-MH-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:29:43Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNDQ=",
+        "version": "C6380140"
+      }
+    ]
   }
 }
