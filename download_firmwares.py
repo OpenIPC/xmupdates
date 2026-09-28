@@ -74,6 +74,8 @@ PORTAL_FILE = ROOT / "items.portal"
 # pushed to openipc.org with the archive named as their origin.
 CCTVSP_FILE = ROOT / "items.cctvsp"
 CCTVSP_ORIGIN = "cctvsp.ru"
+# The only host a cctvsp.ru download may come from, redirects included.
+CCTVSP_HOSTS = ("www.cctvsp.ru", "cctvsp.ru")
 RELEASE_TAG = "firmware-archive"
 LANDING_HOST = "download.xm030.cn"
 # In September 2026 the vendor moved every catalog downloadUrl to this host. It
@@ -300,11 +302,31 @@ def resolve_zip_url(landing_url):
     )
 
 
-def download_zip(url, dest):
+def seller_download(url):
+    """A cctvsp.ru row's download link, checked like a vendor landing page:
+    https on the seller's own host, or the row is a data error."""
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+    except ValueError as e:
+        raise CatalogDataError(f"download link is not a valid URL: {url!r} ({e})")
+    if parsed.scheme != "https" or host not in CCTVSP_HOSTS:
+        raise CatalogDataError(f"download link is not https on {'/'.join(CCTVSP_HOSTS)}: {url!r}")
+    return url
+
+
+def download_zip(url, dest, hosts=None):
+    """Download url to dest; with hosts, every hop of a redirect and the final
+    answer must be on one of them."""
     s = session_for(url)
     sha = hashlib.sha256()
     size = 0
     with s.get(url, stream=True, timeout=300) as r:
+        if hosts is not None:
+            for hop in [*r.history, r]:
+                host = (urlparse(hop.url).hostname or "").lower()
+                if urlparse(hop.url).scheme != "https" or host not in hosts:
+                    raise RuntimeError(f"{url} led to {hop.url}, not https on {'/'.join(hosts)}")
         if r.status_code in (404, 410):
             raise FirmwareUnavailable(f"CDN returned {r.status_code} for {url}")
         r.raise_for_status()
@@ -509,7 +531,7 @@ def main():
             try:
                 # cctvsp.ru links its file directly; the vendor's landing
                 # pages are scraped for theirs.
-                obs_url = landing if item["source"] == "cctvsp" else resolve_zip_url(landing)
+                obs_url = seller_download(landing) if item["source"] == "cctvsp" else resolve_zip_url(landing)
             except FirmwareUnavailable:
                 print("  vendor reports firmware offline; recording in index.")
                 record_unavailable(item)
@@ -540,7 +562,8 @@ def main():
             try:
                 with tempfile.TemporaryDirectory() as td:
                     tmp_path = Path(td) / safe_token(filename or Path(urlparse(obs_url).path).name)
-                    sha256, size = download_zip(obs_url, tmp_path)
+                    sha256, size = download_zip(obs_url, tmp_path,
+                                                CCTVSP_HOSTS if item["source"] == "cctvsp" else None)
                     print(f"  sha256={sha256}  size={size}")
                     picked, uploaded_already = pick_asset_name(
                         existing_assets, item["asset_id"], version, obs_url, sha256, filename)
