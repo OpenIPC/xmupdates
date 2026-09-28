@@ -7723,5 +7723,185 @@
     ],
     "source": "portal",
     "titleId": 21
+  },
+  "p1742": {
+    "name": "IPC_XM530V200_X4-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:23:22Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1742__000807CB.1__000807CB.1IPC_XM530V200_X4-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2NDc=",
+        "filename": "p1742__000807CB.1__000807CB.1IPC_XM530V200_X4-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "44a2acdde26a4e261b4084866ea26cd93dfa4fb17f48d4ae27894a74cd9eb8ea",
+        "size": 7205953,
+        "version": "000807CB.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807CB.1IPC_XM530V200_X4-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1743": {
+    "name": "IPC_XM530V200_IPG-X6-4GEQ.Nat.dss_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:23:28Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1743__000807CD.1__000807CD.1IPC_XM530V200_IPG-X6-4GEQ.Nat.dss_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2NzQ=",
+        "filename": "p1743__000807CD.1__000807CD.1IPC_XM530V200_IPG-X6-4GEQ.Nat.dss_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ae32840f8839d03f4c8c9418b21fa89aecb9fb739d05b04d240afa854b560d1b",
+        "size": 6185650,
+        "version": "000807CD.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807CD.1IPC_XM530V200_IPG-X6-4GEQ.Nat.dss_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1744": {
+    "name": "IPC_XM530V200_IPG-X4C-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:23:34Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1744__000807CF.1__000807CF.1IPC_XM530V200_IPG-X4C-WER_WIFISSV6158M.6158M.Nat.OnvifS_V5.01.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2NTU=",
+        "filename": "p1744__000807CF.1__000807CF.1IPC_XM530V200_IPG-X4C-WER_WIFISSV6158M.6158M.Nat.OnvifS_V5.01.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "2dc063e5517b8823ddd1c1900db15707ecc9084cd4b30d2e8c3d7f784e0b30db",
+        "size": 7432868,
+        "version": "000807CF.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807CF.1IPC_XM530V200_IPG-X4C-WER_WIFISSV6158M.6158M.Nat.OnvifS_V5.01.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1745": {
+    "name": "IPC_XM530V200_X6-WEQ_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:23:40Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1745__000807D8.1__000807D8.1IPC_XM530V200_X6-WEQ_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2ODQ=",
+        "filename": "p1745__000807D8.1__000807D8.1IPC_XM530V200_X6-WEQ_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "1b1bbbba6f37aab059fa4335d652039bd1bbbbfb3ae623d147bb17022676b72f",
+        "size": 7456062,
+        "version": "000807D8.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807D8.1IPC_XM530V200_X6-WEQ_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1750": {
+    "name": "IPC_XM530_85X20T.Nat.dss.OnvifS.HIK_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:23:51Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1750__J91309E5.1__J91309E5.1IPC_XM530_85X20T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDEzOTY=",
+        "filename": "p1750__J91309E5.1__J91309E5.1IPC_XM530_85X20T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "a7bc0d1d7afeb8f9f9cb166ad283d0497bdf5d9a1360897785a688220a5407e8",
+        "size": 36768823,
+        "version": "J91309E5.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/J91309E5.1IPC_XM530_85X20T.Nat.dss.OnvifS.HIK_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1751": {
+    "name": "IPC_XM535_80X30T.Nat.dss.OnvifS.HIK_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:24:02Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1751__J91309ED.1__J91309ED.1IPC_XM535_80X30T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MTk=",
+        "filename": "p1751__J91309ED.1__J91309ED.1IPC_XM535_80X30T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "ade9aacd52769adbd44f23110240b23de4ecd44e19a0ac1c0922d92d94d95096",
+        "size": 37010698,
+        "version": "J91309ED.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/J91309ED.1IPC_XM535_80X30T.Nat.dss.OnvifS.HIK_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1752": {
+    "name": "IPC_XM550_85X50T.Nat.dss.OnvifS.HIK_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:24:12Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1752__J91309EE.1__J91309EE.1IPC_XM550_85X50T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE0MTg=",
+        "filename": "p1752__J91309EE.1__J91309EE.1IPC_XM550_85X50T.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "f8c4c877d9f4cbebe53bdc6ba286b6e512a3f6cdebd5a07c4690e13bd9a88897",
+        "size": 36534614,
+        "version": "J91309EE.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/J91309EE.1IPC_XM550_85X50T.Nat.dss.OnvifS.HIK_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1753": {
+    "name": "IPC_XM530V200_X2-WQ-BL_WIFISSV6355.6355.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:24:19Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1753__000807D5.1__000807D5.1IPC_XM530V200_X2-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2ODM=",
+        "filename": "p1753__000807D5.1__000807D5.1IPC_XM530V200_X2-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "665b1bd4e0172711d8a92468fa66a10afb0c6344c25d990f799dba6c5d1a3dde",
+        "size": 7297522,
+        "version": "000807D5.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807D5.1IPC_XM530V200_X2-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1754": {
+    "name": "IPC_XM530V200_X2-WE_WIFIXM713G_TB.713g.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:24:26Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1754__000807BD.1__000807BD.1IPC_XM530V200_X2-WE_WIFIXM713G_TB.713g.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2MzQ=",
+        "filename": "p1754__000807BD.1__000807BD.1IPC_XM530V200_X2-WE_WIFIXM713G_TB.713g.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "6b4b964c40c8069c55d2546a8e89b41bdd965733d40a34c635169944307c2d48",
+        "size": 7545552,
+        "version": "000807BD.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807BD.1IPC_XM530V200_X2-WE_WIFIXM713G_TB.713g.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
+  },
+  "p1755": {
+    "name": "IPC_XM530V200_IPG-X6-WEQ2_WIFISSV6158M.6158M.Nat.dss.OnvifS_V5.00.R02",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:24:31Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1755__000807CA.1__000807CA.1IPC_XM530V200_IPG-X6-WEQ2_WIFISSV6158M_TB.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDE2NzM=",
+        "filename": "p1755__000807CA.1__000807CA.1IPC_XM530V200_IPG-X6-WEQ2_WIFISSV6158M_TB.6158M.Nat.dss.OnvifS_V5.00.R02.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "556fa383ca04e14875fdc0b2dbfce7cd7f58ebf2de8eada3d27eb1ad2cc3cf74",
+        "size": 7469331,
+        "version": "000807CA.1",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/000807CA.1IPC_XM530V200_IPG-X6-WEQ2_WIFISSV6158M_TB.6158M.Nat.dss.OnvifS_V5.00.R02.zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 21
   }
 }
