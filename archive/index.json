@@ -9183,5 +9183,140 @@
         "version": "C6380171"
       }
     ]
+  },
+  "p1842": {
+    "name": "AHB7016T-GS-V3",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:09Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzA=",
+        "version": "C6380172"
+      }
+    ]
+  },
+  "p1843": {
+    "name": "AHB7016F-GL-V4",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:12Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzE=",
+        "version": "C6380175"
+      }
+    ]
+  },
+  "p1844": {
+    "name": "NBD7004T-PW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:13Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzI=",
+        "version": "C6380178"
+      }
+    ]
+  },
+  "p1845": {
+    "name": "NBD8032H-P",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:15Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzM=",
+        "version": "C6380179"
+      }
+    ]
+  },
+  "p1846": {
+    "name": "AHB7016F-GS-V3",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:16Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzQ=",
+        "version": "C6380180"
+      }
+    ]
+  },
+  "p1847": {
+    "name": "AHB7032F-GS-V3",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:17Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzU=",
+        "version": "C6380182"
+      }
+    ]
+  },
+  "p1848": {
+    "name": "NBD8004T-QW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:19Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzY=",
+        "version": "C6380183"
+      }
+    ]
+  },
+  "p1849": {
+    "name": "NBD8916F-Q",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:20Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzc=",
+        "version": "C6380185"
+      }
+    ]
+  },
+  "p1850": {
+    "name": "XM-JPN1-W",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:39:29Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1850__C6380186__C6380186_XM-JPN1-W_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzg=",
+        "filename": "p1850__C6380186__C6380186_XM-JPN1-W_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "671d0d522de05b2212c349372aeffdfe20df8b7259e86d5ec38e5cc5e8138870",
+        "size": 20408388,
+        "version": "C6380186",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380186(XM-JPN1-W).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1851": {
+    "name": "XM-JPN1-RW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:39:30Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNzk=",
+        "version": "C6380187"
+      }
+    ]
   }
 }
