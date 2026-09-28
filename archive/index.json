@@ -9043,5 +9043,145 @@
         "version": "C6380156"
       }
     ]
+  },
+  "p1832": {
+    "name": "NBD7804R-FW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:08Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTQ=",
+        "version": "C6380157"
+      }
+    ]
+  },
+  "p1833": {
+    "name": "NBD7004T-FW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:09Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTU=",
+        "version": "C6380158"
+      }
+    ]
+  },
+  "p1834": {
+    "name": "NBD8016H-QT",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:10Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTY=",
+        "version": "C6380159"
+      }
+    ]
+  },
+  "p1835": {
+    "name": "NBD8064H-P",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:30:16Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1835__C6380161__C6380161_NBD8064H-P_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTc=",
+        "filename": "p1835__C6380161__C6380161_NBD8064H-P_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "d6abeced0b947451111d92e977fbe23506f986b3eae7bfb79ebe152d47f92c06",
+        "size": 12401767,
+        "version": "C6380161",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380161(NBD8064H-P).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1836": {
+    "name": "NBD7016T-F-V2",
+    "revisions": [
+      {
+        "archived_at": "2026-09-28T05:30:24Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/p1836__C6380163__C6380163_NBD7016T-F-V2_.zip",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTg=",
+        "filename": "p1836__C6380163__C6380163_NBD7016T-F-V2_.zip",
+        "release_tag": "firmware-archive",
+        "sha256": "74abc566ed54982e09cf283e9aa8a80b096a8c5a8f6c0dfb0bf629aa6e108457",
+        "size": 12301452,
+        "version": "C6380163",
+        "zip_url": "https://obs-xm-customer.obs.cn-east-2.myhuaweicloud.com/C6380163(NBD7016T-F-V2).zip"
+      }
+    ],
+    "source": "portal",
+    "titleId": 22
+  },
+  "p1837": {
+    "name": "NBD7816R-F-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:25Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNTk=",
+        "version": "C6380164"
+      }
+    ]
+  },
+  "p1838": {
+    "name": "NBD7804R-PW",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:26Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNjA=",
+        "version": "C6380168"
+      }
+    ]
+  },
+  "p1839": {
+    "name": "AHB7804R-MS-V2",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:27Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNjE=",
+        "version": "C6380169"
+      }
+    ]
+  },
+  "p1840": {
+    "name": "AHB7008T-GS-V3",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:28Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNjI=",
+        "version": "C6380170"
+      }
+    ]
+  },
+  "p1841": {
+    "name": "AHB7004T-GS-V3",
+    "revisions": [],
+    "source": "portal",
+    "titleId": 22,
+    "unavailable": [
+      {
+        "checked_at": "2026-09-28T05:30:29Z",
+        "downloadUrl": "https://download.xm030.cn/d/MDAwMDAyNjk=",
+        "version": "C6380171"
+      }
+    ]
   }
 }
