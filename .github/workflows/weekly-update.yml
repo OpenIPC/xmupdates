@@ -113,7 +113,10 @@ jobs:
     # archive job whatever it managed, since a partial run still changed the
     # index.
     needs: download-firmwares
-    if: ${{ !cancelled() }}
+    # Only a run on main may push: openipc.org takes this token from
+    # weekly-update.yml on main alone, and a run dispatched from another
+    # branch would be refused.
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read

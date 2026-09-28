@@ -30,19 +30,21 @@ DEVICE_ID = re.compile(r"^[0-9A-Z]{8}$")
 
 
 def items(index):
-    """Every archived revision, its device ID the version's first eight
-    characters (000559A7.1 -> 000559A7). The same list the site's
-    `openipc vendor-firmware import-history` builds."""
+    """Every archived file, keyed by its asset name, its device ID the
+    version's first eight characters (000559A7.1 -> 000559A7). The vendor
+    re-publishes under the same version, and each archived file counts. The
+    same list the site's `openipc vendor-firmware import-history` builds."""
     out, seen = [], set()
-    for key, e in index.items():
+    for e in index.values():
         name = (e.get("name") or "").strip()
         for r in e.get("revisions", []):
             version = (r.get("version") or "").strip()
             dev = version[:8].upper()
-            if not r.get("asset_url") or not name or not DEVICE_ID.match(dev) or (key, version) in seen:
+            url = r.get("asset_url") or ""
+            if not url or not name or not DEVICE_ID.match(dev) or url in seen:
                 continue
-            seen.add((key, version))
-            it = {"key": key, "device_id": dev, "version": version, "build": name, "asset_url": r["asset_url"]}
+            seen.add(url)
+            it = {"key": url.rsplit("/", 1)[-1], "device_id": dev, "version": version, "build": name, "asset_url": r["asset_url"]}
             if r.get("sha256"):
                 it["sha256"] = r["sha256"].lower()
             if r.get("size"):
