@@ -14,10 +14,12 @@ L.lzma_lzma_preset.argtypes=[ctypes.c_void_p,ctypes.c_uint32]
 L.lzma_stream_buffer_encode.argtypes=[ctypes.POINTER(Filter),ctypes.c_int,ctypes.c_void_p,ctypes.c_char_p,ctypes.c_size_t,ctypes.c_char_p,ctypes.POINTER(ctypes.c_size_t),ctypes.c_size_t]
 def sq_xz(data, preset, dict_size=65536):
     opts=ctypes.create_string_buffer(256)
-    assert L.lzma_lzma_preset(opts, preset)==0
+    if L.lzma_lzma_preset(opts, preset):
+        raise ValueError(f'liblzma rejected preset {preset}')
     ctypes.c_uint32.from_buffer(opts,0).value=dict_size      # dict_size is the first field
     flt=(Filter*2)(Filter(LZMA_FILTER_LZMA2,ctypes.cast(opts,ctypes.c_void_p)),Filter(LZMA_VLI_UNKNOWN,None))
     out=ctypes.create_string_buffer(len(data)*2+1024); pos=ctypes.c_size_t(0)
     r=L.lzma_stream_buffer_encode(flt,LZMA_CHECK_CRC32,None,data,len(data),out,ctypes.byref(pos),len(out))
-    assert r==0, r
+    if r != 0:
+        raise RuntimeError(f'lzma_stream_buffer_encode failed: {r}')
     return out.raw[:pos.value]

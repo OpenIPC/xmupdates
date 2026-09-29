@@ -30,6 +30,12 @@ BLOCKS = [('lib/modules/hi3516ev200_vpss.ko', 5, 13684),
           ('res/classifier/fd.bin', 0, 37952)]
 
 
+def check(ok, msg):
+    # Not assert: `python -O` would drop the checks and write an unverified repair
+    if not ok:
+        sys.exit(f'error: {msg}')
+
+
 def entry(raw, zi):
     lh = raw[zi.header_offset:zi.header_offset + 30]
     n, x = struct.unpack('<HH', lh[26:30])
@@ -69,7 +75,7 @@ ui = pz.getinfo('user-x.cramfs.img')
 img = zlib.decompress(entry(praw, ui)[2], -15)
 if len(img) == ui.file_size and zlib.crc32(img) == ui.CRC:
     sys.exit('user-x.cramfs.img is intact: nothing to repair')
-assert len(img) == 4325492, 'not the known-broken id1873 package'
+check(len(img) == 4325492, 'not the known-broken id1873 package')
 
 donor = zipfile.ZipFile(donor_pkg).read('user-x.cramfs.img')[64:]
 with tempfile.TemporaryDirectory() as d:
@@ -77,16 +83,17 @@ with tempfile.TemporaryDirectory() as d:
     subprocess.run(['unsquashfs', '-q', '-d', f'{d}/u', f'{d}/usr.sqfs'], check=True, stdout=subprocess.DEVNULL)
     new = b''
     for path, blk, want in BLOCKS:
+        check(os.path.isfile(f'{d}/u/{path}'), f'donor has no /{path}: not the 2020-05-07 build')
         c = sq_xz(open(f'{d}/u/{path}', 'rb').read()[blk * BS:(blk + 1) * BS], 6)
-        assert len(c) == want, f'{path} block {blk}: {len(c)} != {want}'
+        check(len(c) == want, f'{path} block {blk}: {len(c)} != {want}')
         new += c
 
 fixed = img[:64 + SPAN[0]] + new + img[64 + SPAN[1]:]
-assert len(fixed) == ui.file_size and zlib.crc32(fixed) == ui.CRC, 'does not reproduce the vendor CRC'
+check(len(fixed) == ui.file_size and zlib.crc32(fixed) == ui.CRC, 'does not reproduce the vendor CRC')
 
 inner = rezip(praw, pz, {'user-x.cramfs.img': fixed})
 outer = rezip(craw, cz, {inner_name: inner})
-assert zipfile.ZipFile(io.BytesIO(outer)).testzip() is None
-assert zipfile.ZipFile(io.BytesIO(inner)).testzip() is None
+check(zipfile.ZipFile(io.BytesIO(outer)).testzip() is None, 'repacked catalog zip fails testzip')
+check(zipfile.ZipFile(io.BytesIO(inner)).testzip() is None, 'repacked package fails testzip')
 open(out, 'wb').write(outer)
 print(f'{out}: user-x.cramfs.img restored to crc {ui.CRC:08x}, {ui.file_size} bytes')
