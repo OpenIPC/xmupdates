@@ -3482,8 +3482,20 @@
         "downloadUrl": "https://download.xm030.cn/d/MDAwMDExNTM=",
         "filename": "id1873__000529B2.1__000529B2.1IPC_HI3516EV300_85H50AI.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
         "release_tag": "firmware-archive",
-        "sha256": "e8b59c34a878c30da38cb3fdaf847eeb82252274f0b3ea804f9ec940a5232b54",
-        "size": 9192321,
+        "repaired": {
+          "issue": "https://github.com/OpenIPC/xmupdates/issues/9",
+          "note": "user-x.cramfs.img is damaged as published (bad CRC, Ret 514 from the stock updater); rebuilt exactly to the vendor-recorded CRC 8a2e2b3e from the 2020-05-07 build",
+          "repaired_at": "2026-09-29T13:30:00Z",
+          "script": "repairs/id1873_000529B2.py",
+          "vendor_original": {
+            "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/id1873__000529B2.1__vendor-broken__000529B2.1IPC_HI3516EV300_85H50AI.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+            "filename": "id1873__000529B2.1__vendor-broken__000529B2.1IPC_HI3516EV300_85H50AI.Nat.dss.OnvifS.HIK_V5.00.R02.zip",
+            "sha256": "e8b59c34a878c30da38cb3fdaf847eeb82252274f0b3ea804f9ec940a5232b54",
+            "size": 9192321
+          }
+        },
+        "sha256": "ace7f01ecdc68150e6a95a61d206707be9cb4cc5e17d260052a91177b7723d67",
+        "size": 9192488,
         "version": "000529B2.1"
       }
     ]
