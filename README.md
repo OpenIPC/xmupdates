@@ -127,6 +127,8 @@ names start with the key (`id2281__…` / `p1475__…`) and only use
 `[A-Za-z0-9._-]`; always take the link from `asset_url` rather than building it. `zip_url` is only present
 on revisions archived since it was added. Entries may also hold `unavailable`
 (the vendor took the file offline) and `data_errors` (malformed row) lists.
+A revision may hold `repaired`: the vendor's file was broken as published and
+`asset_url` serves an exact repair instead — see [Repaired packages](#repaired-packages).
 
 cctvsp entries (`c<id>`) carry `"source": "cctvsp"`, `"origin": "cctvsp.ru"`
 and `page` (the file's page there); their `name` is the file name without its
@@ -140,6 +142,20 @@ portal row is not archived separately. Known limitations: if the content
 behind an already-recorded landing page changes, it is not archived again under
 another key; and if the catalog later adds a landing page first archived from
 the portal, that firmware is archived twice.
+
+## Repaired packages
+
+Rarely, XM publishes a package its own updater refuses. When the damage can be
+undone *exactly* — the result matches the checksums the vendor itself recorded
+— the revision's `asset_url` serves the repaired package under its usual name,
+and the vendor's file is kept for reference as a `…vendor-broken…` asset,
+recorded in the revision's `repaired.vendor_original` (never as a revision of
+its own, so nothing offers it for download). Each repair is a script under
+[`repairs/`](repairs) that rebuilds the package from public inputs.
+
+| Catalog id | Build | What was wrong | Script |
+|---|---|---|---|
+| 1873 | `000529B2.1` IPC_HI3516EV300_85H50AI, 2021-03-03 | 77 KB of `user-x.cramfs.img` altered after its checksums were taken; stock updater answers `Ret 514` ([#9](https://github.com/OpenIPC/xmupdates/issues/9)) | [`repairs/id1873_000529B2.py`](repairs/id1873_000529B2.py) |
 
 ## Grabbing a firmware
 
