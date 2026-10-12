@@ -1559,7 +1559,39 @@
             "name": "AHB80N04R-GS-V3\n",
             "usage": "",
             "version": "C638024T"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.xm030.cn/d/MDAwMDE1NTY=",
+            "id": 2521,
+            "name": "AHB80N16T-LME-V3\n",
+            "usage": "",
+            "version": "C638024S"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NTY=",
+            "id": 2541,
+            "name": "AHB80N16T-LME-V3\n",
+            "usage": "",
+            "version": ""
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NTk=",
+            "id": 2551,
+            "name": "\nAHB80N08R-LME-V3\n",
+            "usage": "",
+            "version": "C638024V"
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NTg=",
+            "id": 2561,
+            "name": "\n\nAHB80N04R-MH-V3\n",
+            "usage": "",
+            "version": ""
         }
     ],
-    "total": 195
+    "total": 199
 }

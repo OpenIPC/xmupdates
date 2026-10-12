@@ -2687,7 +2687,39 @@
             "name": "  IPC_XM212_X2-WEQ-T_S38_WIFI.Q35343\n",
             "usage": "",
             "version": "0009AA12 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MzM=",
+            "id": 2531,
+            "name": "IPC_NT98566_N8S\n",
+            "usage": "",
+            "version": "000749O7     "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NTM=",
+            "id": 2571,
+            "name": "  IPC_RV1103_LPG-R4-4GQ-C_4G\n",
+            "usage": "",
+            "version": "000A79YL "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE5MDA=",
+            "id": 2581,
+            "name": "\n  IPC_XM212_X2-WEQ-T_S38_WIFI\n\n",
+            "usage": "",
+            "version": "0009AA12"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NDk=",
+            "id": 2591,
+            "name": "\n\nIPC_XM232_X6S-WEQ-H_S38_WIFI\n",
+            "usage": "",
+            "version": "000A19WS  "
         }
     ],
-    "total": 336
+    "total": 340
 }
