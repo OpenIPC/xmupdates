@@ -2719,7 +2719,23 @@
             "name": "\n\nIPC_XM232_X6S-WEQ-H_S38_WIFI\n",
             "usage": "",
             "version": "000A19WS  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NDk=",
+            "id": 2611,
+            "name": "    IPC_XM232_X6S-WEQ-H_S38_WIFI\n",
+            "usage": "",
+            "version": "000A19WS "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MzQ=",
+            "id": 2621,
+            "name": "    IPC_RV1103_LPG-R4C-4GEQ-C_4G\n",
+            "usage": "",
+            "version": "000A79W5"
         }
     ],
-    "total": 340
+    "total": 342
 }

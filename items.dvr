@@ -1591,7 +1591,15 @@
             "name": "\n\nAHB80N04R-MH-V3\n",
             "usage": "",
             "version": ""
+        },
+        {
+            "downloadMenuId": 5,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDIwMDE=",
+            "id": 2601,
+            "name": "NBD89S08S-KL-V2\n",
+            "usage": "",
+            "version": "N95C5266"
         }
     ],
-    "total": 199
+    "total": 200
 }
