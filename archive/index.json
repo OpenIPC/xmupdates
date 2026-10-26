@@ -8995,6 +8995,18 @@
         "size": 7879713,
         "version": "00014840.20180627",
         "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=280&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=eda69fcb54599c26b991e7810f9ece10"
+      },
+      {
+        "archived_at": "2026-10-26T10:09:53Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/c280__00014840.20180627__IPEYE_14840_IPC_HI3516D_83H40_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180627_ALL_TL.bin",
+        "downloadUrl": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=280&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=0e9d19e4bcb848f77972fb205655e6d6",
+        "filename": "c280__00014840.20180627__IPEYE_14840_IPC_HI3516D_83H40_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180627_ALL_TL.bin",
+        "published_at": "2019-11-22T00:00:00Z",
+        "release_tag": "firmware-archive",
+        "sha256": "2a560478648ef55e4f06549aa5b11904bdf024768aa7d4a7a12fd17ee3e1d39a",
+        "size": 7879713,
+        "version": "00014840.20180627",
+        "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=280&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=0e9d19e4bcb848f77972fb205655e6d6"
       }
     ],
     "source": "cctvsp"
@@ -9039,6 +9051,18 @@
         "size": 7828470,
         "version": "00014911.20180307",
         "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=304&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=70ac23271004806331163bbfb4b2a54a"
+      },
+      {
+        "archived_at": "2026-10-26T10:09:56Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/c304__00014911.20180307__IPEYE_14911_IPC_HI3516D_83H20_AE_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180307_ALL.bin",
+        "downloadUrl": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=304&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=2dc8da52f093e6657d32e139bcf46245",
+        "filename": "c304__00014911.20180307__IPEYE_14911_IPC_HI3516D_83H20_AE_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180307_ALL.bin",
+        "published_at": "2019-03-21T00:00:00Z",
+        "release_tag": "firmware-archive",
+        "sha256": "b8fd80adb8a4388166426333771deff7ef758c5e5bb7706dd0227d4d01a4fca3",
+        "size": 7828470,
+        "version": "00014911.20180307",
+        "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=304&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=2dc8da52f093e6657d32e139bcf46245"
       }
     ],
     "source": "cctvsp"
@@ -9083,6 +9107,18 @@
         "size": 7544134,
         "version": "00001510.20161110",
         "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=358&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=e380df509f2d8427b6be1a52ca09ac99"
+      },
+      {
+        "archived_at": "2026-10-26T10:09:58Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/c358__00001510.20161110__IPEYE_1510_IPC_HI3518C_50H10L_AE_RT3070_V4.02.R11.Nat.OnvifS.20161110_ALL.bin",
+        "downloadUrl": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=358&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=81cfd0bfbe6142be77c845d5dbcf1d45",
+        "filename": "c358__00001510.20161110__IPEYE_1510_IPC_HI3518C_50H10L_AE_RT3070_V4.02.R11.Nat.OnvifS.20161110_ALL.bin",
+        "published_at": "2019-03-21T00:00:00Z",
+        "release_tag": "firmware-archive",
+        "sha256": "43e45617caa70cb4ec5a9763c3c7b82eb8a3b2dfe1c2071d304ee8a4567c64e3",
+        "size": 7544134,
+        "version": "00001510.20161110",
+        "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=358&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=81cfd0bfbe6142be77c845d5dbcf1d45"
       }
     ],
     "source": "cctvsp"
@@ -9127,6 +9163,18 @@
         "size": 7861392,
         "version": "00039840.20180103",
         "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=404&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=2090f2fba5eef727ad5325d329d28a6c"
+      },
+      {
+        "archived_at": "2026-10-26T10:10:01Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/c404__00039840.20180103__IPEYE_39840_IPC_HI3516D_83H40_2G_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180103_ALL.bin",
+        "downloadUrl": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=404&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=038c4e21f4d4799acec16b89ef367ca2",
+        "filename": "c404__00039840.20180103__IPEYE_39840_IPC_HI3516D_83H40_2G_RT3070_V4.02.R12.Nat.OnvifS.HIK.20180103_ALL.bin",
+        "published_at": "2019-11-26T00:00:00Z",
+        "release_tag": "firmware-archive",
+        "sha256": "a8de682b1bc877134d759b4b9e5b807c6956f3905bfa7a5dfcf314df9fac56ae",
+        "size": 7861392,
+        "version": "00039840.20180103",
+        "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=404&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=038c4e21f4d4799acec16b89ef367ca2"
       }
     ],
     "source": "cctvsp"
@@ -9171,6 +9219,18 @@
         "size": 6894851,
         "version": "000559B0.20200704",
         "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=405&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=32981226a55eaa12805ca7c1a0baea5e"
+      },
+      {
+        "archived_at": "2026-10-26T10:10:03Z",
+        "asset_url": "https://github.com/OpenIPC/xmupdates/releases/download/firmware-archive/c405__000559B0.20200704__IPEYE_559B0_IPC_HI3516EV200_85H30AI_S38.Nat.dss.OnvifS.HIK_V5.00.R02.20200704_all.bin",
+        "downloadUrl": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=405&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=499fff37daba2a5e8557abed36c78584",
+        "filename": "c405__000559B0.20200704__IPEYE_559B0_IPC_HI3516EV200_85H30AI_S38.Nat.dss.OnvifS.HIK_V5.00.R02.20200704_all.bin",
+        "published_at": "2020-09-21T00:00:00Z",
+        "release_tag": "firmware-archive",
+        "sha256": "cf19296545c95327151dfd0805dab15525662a8fa06eec39431908a5f57b2865",
+        "size": 6894851,
+        "version": "000559B0.20200704",
+        "zip_url": "https://www.cctvsp.ru/support?task=callelement&format=raw&item_id=405&element=f85c494b-2b32-4109-b8c1-083cca2b7db6&method=download&args[0]=499fff37daba2a5e8557abed36c78584"
       }
     ],
     "source": "cctvsp"
