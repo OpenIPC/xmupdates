@@ -28,7 +28,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDA0MTQ=",
             "id": 1689,
-            "name": "General_XM510_50X10-SWI",
+            "name": "IPC_XM510_50X10-SWI",
             "usage": "",
             "version": "00023658"
         },
@@ -42,83 +42,11 @@
         },
         {
             "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA3ODk=",
-            "id": 1748,
-            "name": "IPC_LITEOS_HI3518EV201_KA50H10L_S38",
-            "usage": "",
-            "version": "00038710"
-        },
-        {
-            "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDA3ODg=",
             "id": 1749,
             "name": "IPC_HI3516D_83H50N",
             "usage": "",
-            "version": "00014927.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA3NTQ=",
-            "id": 1750,
-            "name": "IPC_LITEOS_HI3516EV100_50H30L_S38.Nat.dss",
-            "usage": "",
-            "version": "00041863.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA3NTI=",
-            "id": 1751,
-            "name": "IPC_XM510_RA50X20_WIFIXM712.712",
-            "usage": "",
-            "version": "00023665.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDAyOTY=",
-            "id": 1752,
-            "name": "XM510_50X10-SW_WIFINVRXM712.712",
-            "usage": "",
-            "version": "00023655.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA3MzU=",
-            "id": 1771,
-            "name": "HI3516D_83H40W_RT3070",
-            "usage": "",
-            "version": "00014912.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA4NzI=",
-            "id": 1779,
-            "name": "IPC_XM510_50X20-SWCL_WIFIXM712",
-            "usage": "",
-            "version": "00023667.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA4NDI=",
-            "id": 1782,
-            "name": "IPC_LITEOS_HI3518EV200_53H20L_S38_HI1131",
-            "usage": "",
-            "version": "00034532.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA4MjY=",
-            "id": 1786,
-            "name": "IPC_HI3516EV100_53H13L_FD_F4_8188EU",
-            "usage": "",
-            "version": "0002299E.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA4MjU=",
-            "id": 1787,
-            "name": "IPC_HI3518EV200_50H10L_FD_8188EU_S38",
-            "usage": "",
-            "version": "0002099F.1"
+            "version": "00014927"
         },
         {
             "downloadMenuId": 6,
@@ -126,31 +54,15 @@
             "id": 1794,
             "name": "HZXM_IPC_HI3516EV100_50H20L_E_S38_8188EU",
             "usage": "",
-            "version": "00022991.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA5MDg=",
-            "id": 1795,
-            "name": "IPC_XM510_50X10-SWI-S_WIFIXM712.712 ",
-            "usage": "",
-            "version": "000239A1.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA4OTU=",
-            "id": 1796,
-            "name": "IPC_XM510_50X10-SWC-S_WIFINVRXM712.712",
-            "usage": "",
-            "version": "00023670.1"
+            "version": "00022991"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDA4ODk=",
             "id": 1797,
-            "name": "IPC_XM510_RA50X10-C-S_WIFIXM712.712",
+            "name": "IPC_XM510_RA50X10-C-S_WIFIXM712",
             "usage": "",
-            "version": "000239A0.1"
+            "version": "000239A0"
         },
         {
             "downloadMenuId": 6,
@@ -158,15 +70,7 @@
             "id": 1821,
             "name": "IPC_XM530_50X20-SW_WIFIXM712",
             "usage": "",
-            "version": "00030674.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDEwNTc=",
-            "id": 1822,
-            "name": "IPC_HI3516CV300_50H20L_SG_AE",
-            "usage": "",
-            "version": "000319AB.1"
+            "version": "00030674"
         },
         {
             "downloadMenuId": 6,
@@ -174,7 +78,7 @@
             "id": 1823,
             "name": "IPC_XM530_RA50X20_WIFI.711",
             "usage": "",
-            "version": "00030665.1"
+            "version": "00030665"
         },
         {
             "downloadMenuId": 6,
@@ -182,31 +86,7 @@
             "id": 1824,
             "name": "IPC_XM530_80X20",
             "usage": "",
-            "version": "00030678.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDEwMjA=",
-            "id": 1825,
-            "name": "IPC_HI3516AV200_83H20",
-            "usage": "",
-            "version": "00037911.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA5NzY=",
-            "id": 1826,
-            "name": "IPC_ALIOS_XM510_RA50X20_WIFIXM712",
-            "usage": "",
-            "version": "00045665.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA5Mzc=",
-            "id": 1827,
-            "name": "IPC_HI3516D_83H20-FA_4G",
-            "usage": "",
-            "version": "0001491A.1"
+            "version": "00030678"
         },
         {
             "downloadMenuId": 6,
@@ -214,39 +94,23 @@
             "id": 1837,
             "name": "IPC_HI3516DV300_80H50AI",
             "usage": "",
-            "version": "000479A9.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDEwOTg=",
-            "id": 1838,
-            "name": "HI3516CV500_50H20AI",
-            "usage": "",
-            "version": "000489A7.1"
+            "version": "000479A9"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEwNzI=",
             "id": 1839,
-            "name": "IPC_XM550_80X50.Nat.dss",
+            "name": "IPC_XM550_80X50",
             "usage": "",
-            "version": "00030679.1"
+            "version": "00030679"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEwNzA=",
             "id": 1840,
-            "name": "IPC_XM530_80X40.Nat.dss",
+            "name": "IPC_XM530_80X40",
             "usage": "",
-            "version": "00030682.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDA5MzI=",
-            "id": 1841,
-            "name": "IPC_HI3516EV100_N81020N",
-            "usage": "",
-            "version": "00040993.1"
+            "version": "00030682"
         },
         {
             "downloadMenuId": 6,
@@ -254,7 +118,7 @@
             "id": 1872,
             "name": "IPC_XM530_50X20-WNS_WIFINVRXM712",
             "usage": "",
-            "version": "00030688.1"
+            "version": "00030688"
         },
         {
             "downloadMenuId": 6,
@@ -262,7 +126,7 @@
             "id": 1873,
             "name": "IPC_HI3516EV300_85H50AI",
             "usage": "",
-            "version": "000529B2.1"
+            "version": "000529B2"
         },
         {
             "downloadMenuId": 6,
@@ -270,7 +134,7 @@
             "id": 1874,
             "name": "IPC_HI3516EV200_85H30AI_S38",
             "usage": "",
-            "version": "000559B0.1"
+            "version": "000559B0"
         },
         {
             "downloadMenuId": 6,
@@ -278,7 +142,7 @@
             "id": 1875,
             "name": "IPC_XM550_85X20-CP",
             "usage": "",
-            "version": "00030693.1"
+            "version": "00030693"
         },
         {
             "downloadMenuId": 6,
@@ -286,7 +150,7 @@
             "id": 1876,
             "name": "IPC_HI3516D_N83020L",
             "usage": "",
-            "version": "000149B2.1"
+            "version": "000149B2"
         },
         {
             "downloadMenuId": 6,
@@ -294,7 +158,7 @@
             "id": 1877,
             "name": "XM530_R80X20-PQ_WIFI",
             "usage": "",
-            "version": "00030695.1"
+            "version": "00030695"
         },
         {
             "downloadMenuId": 6,
@@ -302,15 +166,15 @@
             "id": 1878,
             "name": "IPC_HI3516EV200_50H20AI_S38",
             "usage": "",
-            "version": "000559A7.1"
+            "version": "000559A7"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDExMzU=",
             "id": 1879,
-            "name": "HI3516EV200_50H20AI",
+            "name": "IPC_HI3516EV200_50H20AI",
             "usage": "",
-            "version": "000509A7.1"
+            "version": "000509A7"
         },
         {
             "downloadMenuId": 6,
@@ -318,7 +182,7 @@
             "id": 1880,
             "name": "IPC_XM530_80X30.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "00030683.1"
+            "version": "00030683"
         },
         {
             "downloadMenuId": 6,
@@ -326,7 +190,7 @@
             "id": 1890,
             "name": "IPC_XM550_50X40-SW_WIFIXM712",
             "usage": "",
-            "version": "00030689.1"
+            "version": "00030689"
         },
         {
             "downloadMenuId": 6,
@@ -334,7 +198,7 @@
             "id": 1891,
             "name": "IPC_XM530_50X20-BMC_WIFIXM711",
             "usage": "",
-            "version": "00030686.1"
+            "version": "00030686"
         },
         {
             "downloadMenuId": 6,
@@ -342,15 +206,15 @@
             "id": 1892,
             "name": "IPC_XM530_50X20-WN_WIFINVRXM713",
             "usage": "",
-            "version": "00030680.1"
+            "version": "00030680"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDExOTI=",
             "id": 1893,
-            "name": "DXM530_BMS50X20.",
+            "name": "IPC_XM530_BMS50X20",
             "usage": "",
-            "version": "0003021.1"
+            "version": "0003021D"
         },
         {
             "downloadMenuId": 6,
@@ -358,7 +222,7 @@
             "id": 1899,
             "name": "XM550_RA50X40_WIFIXM711",
             "usage": "",
-            "version": "00030698.1"
+            "version": "00030698"
         },
         {
             "downloadMenuId": 6,
@@ -366,15 +230,15 @@
             "id": 1901,
             "name": "IPC_HI3516EV300_50H20AI",
             "usage": "",
-            "version": "000529A7.1"
+            "version": "000529A7"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyMDM=",
             "id": 1902,
-            "name": "IPC_XM550_85X20-FI.Nat.dss",
+            "name": "IPC_XM550_85X20-FI",
             "usage": "",
-            "version": "00030685.1"
+            "version": "00030685"
         },
         {
             "downloadMenuId": 6,
@@ -382,7 +246,7 @@
             "id": 1904,
             "name": "IPC_XM550_50X50-SW_WIFIXM712",
             "usage": "",
-            "version": "00030675.1"
+            "version": "00030675"
         },
         {
             "downloadMenuId": 6,
@@ -390,7 +254,7 @@
             "id": 1905,
             "name": "IPC_XM550_83X40.Nat.dss.OnvifS",
             "usage": "",
-            "version": "00030697.1"
+            "version": "00030697"
         },
         {
             "downloadMenuId": 6,
@@ -398,7 +262,7 @@
             "id": 1906,
             "name": "IPC_XM530_RA50X10_WIFIXM711",
             "usage": "",
-            "version": "00030652.1"
+            "version": "00030652"
         },
         {
             "downloadMenuId": 6,
@@ -406,7 +270,7 @@
             "id": 1909,
             "name": "IPC_XM530_50X20-4G",
             "usage": "",
-            "version": "000306a4.1"
+            "version": "000306a4"
         },
         {
             "downloadMenuId": 6,
@@ -414,31 +278,31 @@
             "id": 1928,
             "name": "IPC_LITEOS_HI3518EV300_KA53H20L_S38_HI1131",
             "usage": "",
-            "version": "00057997.1"
+            "version": "00057997"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyMjc=",
             "id": 1929,
-            "name": "IPC_XM550_N50X40_WIFIXM712.712.Nat.dss.",
+            "name": "IPC_XM550_N50X40_WIFIXM712",
             "usage": "",
-            "version": "000306a0.1"
+            "version": "000306a0"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyMjU=",
             "id": 1930,
-            "name": "IPC_XM530_RB50X20-4G.Nat.dss",
+            "name": "IPC_XM530_RB50X20-4G",
             "usage": "",
-            "version": "000306a5.1"
+            "version": "000306a5"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNDM=",
             "id": 1931,
-            "name": "IPC_XM530_85X20.Nat.dss.",
+            "name": "IPC_XM530_85X20",
             "usage": "",
-            "version": "0003068b.1"
+            "version": "0003068b"
         },
         {
             "downloadMenuId": 6,
@@ -446,7 +310,7 @@
             "id": 1932,
             "name": "IPC_XM530_50X20-WG_WIFIXM711",
             "usage": "",
-            "version": "000309C1.1"
+            "version": "000309C1"
         },
         {
             "downloadMenuId": 6,
@@ -454,7 +318,7 @@
             "id": 1933,
             "name": " IPC_XM530_RA50X20-4G",
             "usage": "",
-            "version": "000309C0.1"
+            "version": "000309C0"
         },
         {
             "downloadMenuId": 6,
@@ -462,7 +326,7 @@
             "id": 1934,
             "name": "IPC_XM530_50X20-EG.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000306a7.1"
+            "version": "000306a7"
         },
         {
             "downloadMenuId": 6,
@@ -470,7 +334,7 @@
             "id": 1950,
             "name": "IPC_LITEOS_HI3518EV300_50H20L-DB_S38_HI1131",
             "usage": "",
-            "version": "00057936.1"
+            "version": "00057936"
         },
         {
             "downloadMenuId": 6,
@@ -478,7 +342,7 @@
             "id": 1951,
             "name": "IPC_XM530_50X20-FK_WIFIXM711",
             "usage": "",
-            "version": "000309BD.1"
+            "version": "000309BD"
         },
         {
             "downloadMenuId": 6,
@@ -486,7 +350,7 @@
             "id": 1952,
             "name": "IPC_XM530_50X20-ELG-4G",
             "usage": "",
-            "version": "000306ac.1"
+            "version": "000306ac"
         },
         {
             "downloadMenuId": 6,
@@ -494,15 +358,15 @@
             "id": 1955,
             "name": "IPC_XM530_50X20-WGL_WIFIXM711",
             "usage": "",
-            "version": "000306ad.1"
+            "version": "000306ad"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNTE=",
             "id": 1956,
-            "name": "IPC_XM530_50X20-WNH_WIFINVRXM713G_TB.713g",
+            "name": "IPC_XM530_50X20-WNH_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "0003067a.1"
+            "version": "0003067a"
         },
         {
             "downloadMenuId": 6,
@@ -510,7 +374,7 @@
             "id": 1957,
             "name": "IPC_XM530_50X20-CARD_WIFIXM711",
             "usage": "",
-            "version": "0003069f.1"
+            "version": "0003069f"
         },
         {
             "downloadMenuId": 6,
@@ -518,23 +382,23 @@
             "id": 1958,
             "name": "IPC_XM550_50X20-HTH.Nat.dss",
             "usage": "",
-            "version": "00030677.1"
+            "version": "00030677"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNTU=",
             "id": 1964,
-            "name": "IPC_XM530_50X20-GL-4G.Nat.dss.OnvifS",
+            "name": "IPC_XM530_50X20-GL-4G",
             "usage": "",
-            "version": "000306ae.1"
+            "version": "000306ae"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNTk=",
             "id": 1967,
-            "name": "IPC_XM550_50X40-WG_WIFIXM711.711",
+            "name": "IPC_XM550_50X40-WG_WIFIXM711",
             "usage": "",
-            "version": "0003068a.1"
+            "version": "0003068a"
         },
         {
             "downloadMenuId": 6,
@@ -542,7 +406,7 @@
             "id": 1968,
             "name": "IPC_XM550_85X50.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "0003068d.1"
+            "version": "0003068d"
         },
         {
             "downloadMenuId": 6,
@@ -550,15 +414,15 @@
             "id": 1969,
             "name": "IPC_XM550_50X50-SWGL_WIFIXM712",
             "usage": "",
-            "version": "000306af.1"
+            "version": "000306af"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNzk=",
             "id": 1971,
-            "name": "BMS50X20-H.Nat.dss",
+            "name": "IPC_XM530_BMS50X20-H",
             "usage": "",
-            "version": "0003021U.1"
+            "version": "0003021U"
         },
         {
             "downloadMenuId": 6,
@@ -566,7 +430,7 @@
             "id": 1972,
             "name": "IPC_XM530_50X20-BMC-H_WIFIXM713G",
             "usage": "",
-            "version": "000306b7.1"
+            "version": "000306b7"
         },
         {
             "downloadMenuId": 6,
@@ -574,63 +438,63 @@
             "id": 1973,
             "name": "XM530_RA50X20-BMC-H_WIFIXM713G",
             "usage": "",
-            "version": "000306b8.1"
+            "version": "000306b8"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNzU=",
             "id": 1974,
-            "name": "IPC_XM530_50X10-WNH_WIFINVRXM713G_TB.713g",
+            "name": "IPC_XM530_50X10-WNH_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "000306b3.1"
+            "version": "000306b3"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyNjc=",
             "id": 1977,
-            "name": "IPC_XM530_50X20-SWB_WIFIXM711.",
+            "name": "IPC_XM530_50X20-SWB_WIFIXM711",
             "usage": "",
-            "version": "000306a2.1"
+            "version": "000306a2"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyOTI=",
             "id": 1980,
-            "name": "1IPC_XM530_RG50X20_WIFIXM711",
+            "name": "IPC_XM530_RG50X20_WIFIXM711",
             "usage": "",
-            "version": "000306b1.1"
+            "version": "000306b1"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyOTE=",
             "id": 1981,
-            "name": "1IPC_XM530_50X20-WNG_WIFINVRXM713G_TB",
+            "name": "IPC_XM530_50X20-WNG_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "000306bd.1"
+            "version": "000306bd"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyOTA=",
             "id": 1982,
-            "name": "IPC_XM530_RF50X10_WIFIXM713G.713g",
+            "name": "IPC_XM530_RF50X10_WIFIXM713G",
             "usage": "",
-            "version": "0003067c.1"
+            "version": "0003067c"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyODU=",
             "id": 1988,
-            "name": "IPC_XM530_RF50X20_WIFIXM713G.713g",
+            "name": "IPC_XM530_RF50X20_WIFIXM713G",
             "usage": "",
-            "version": "0003067b.1"
+            "version": "0003067b"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyODQ=",
             "id": 1989,
-            "name": "XM530_BMS50X20-WVGA.",
+            "name": "IPC_XM530_BMS50X20-WVGA",
             "usage": "",
-            "version": "0003021Y.1"
+            "version": "0003021Y"
         },
         {
             "downloadMenuId": 6,
@@ -638,15 +502,15 @@
             "id": 1993,
             "name": "IPC_HI3516EV200_83H30L-DOME_S38_XM713G",
             "usage": "",
-            "version": "0005598A.1"
+            "version": "0005598A"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEyOTg=",
             "id": 1994,
-            "name": "IPC_XM530_RH50X20_WIFIXM713G.713g",
+            "name": "IPC_XM530_RH50X20_WIFIXM713G",
             "usage": "",
-            "version": "000306bf.1"
+            "version": "000306bf"
         },
         {
             "downloadMenuId": 6,
@@ -654,7 +518,7 @@
             "id": 1996,
             "name": "IPC_XM530_50X20-UFO_WIFIXM711.711.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000306be.1"
+            "version": "000306be"
         },
         {
             "downloadMenuId": 6,
@@ -662,39 +526,39 @@
             "id": 1999,
             "name": "IPC_HI3516EV300_83H50AI_S38.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000589C9.1"
+            "version": "000589C9"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMDM=",
             "id": 2003,
-            "name": "IPC_XM530_R80X30-PQL_WIFIXM711.711.",
+            "name": "IPC_XM530_R80X30-PQL_WIFIXM711",
             "usage": "",
-            "version": "00030736.1"
+            "version": "00030736"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMTM=",
             "id": 2004,
-            "name": "IPC_HI3516EV200_N80020Y_S38.Nat.dss.",
+            "name": "IPC_HI3516EV200_N80020Y_S38",
             "usage": "",
-            "version": "000559D8.1"
+            "version": "000559D8"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMTQ=",
             "id": 2005,
-            "name": "IPC_HI3516EV200_80HF30PSA-WRDG_S38.713g.Nat.dss.",
+            "name": "IPC_HI3516EV200_80HF30PSA-WRDG_S38.713g",
             "usage": "",
-            "version": "0005598B.1"
+            "version": "0005598B"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMjQ=",
             "id": 2006,
-            "name": "IPC_XM530_80X40T.Nat.dss.OnvifS.HIK_",
+            "name": "IPC_XM530_80X40T.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000309DC.1"
+            "version": "000309DC"
         },
         {
             "downloadMenuId": 6,
@@ -702,7 +566,7 @@
             "id": 2007,
             "name": "IPC_HI3516EV200_RM50H20L-ES_XM713G",
             "usage": "",
-            "version": "00050986.1"
+            "version": "00050986"
         },
         {
             "downloadMenuId": 6,
@@ -710,7 +574,7 @@
             "id": 2008,
             "name": "IPC_HI3516EV300_83HF50T_S38.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000589DD.1"
+            "version": "000589DD"
         },
         {
             "downloadMenuId": 6,
@@ -718,7 +582,7 @@
             "id": 2009,
             "name": "IPC_XM530_50X30-WNG_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "000309DA.1"
+            "version": "000309DA"
         },
         {
             "downloadMenuId": 6,
@@ -726,7 +590,7 @@
             "id": 2010,
             "name": "IPC_HI3516EV200_80HF20T_S38.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000559DB.1"
+            "version": "000559DB"
         },
         {
             "downloadMenuId": 6,
@@ -734,7 +598,7 @@
             "id": 2014,
             "name": "IPC_HI3516EV300_N80050YA.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000529D9.1"
+            "version": "000529D9"
         },
         {
             "downloadMenuId": 6,
@@ -742,7 +606,7 @@
             "id": 2015,
             "name": "IPC_HI3518EV300_80HY30PT-WRC_S38.713g.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000539E1.1"
+            "version": "000539E1"
         },
         {
             "downloadMenuId": 6,
@@ -750,7 +614,7 @@
             "id": 2016,
             "name": "IPC_HI3516EV200_85HF30T_S38.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000559CD.1"
+            "version": "000559CD"
         },
         {
             "downloadMenuId": 6,
@@ -758,7 +622,7 @@
             "id": 2018,
             "name": "IPC_XM530_80X30T.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000309ED.1"
+            "version": "000309ED"
         },
         {
             "downloadMenuId": 6,
@@ -766,7 +630,7 @@
             "id": 2020,
             "name": "IPC_XM530_RA50X20-SUN-4G",
             "usage": "",
-            "version": "000306c4.1"
+            "version": "000306c4"
         },
         {
             "downloadMenuId": 6,
@@ -774,15 +638,15 @@
             "id": 2021,
             "name": "IPC_XM550_50X50-BULB_WIFIXM713G",
             "usage": "",
-            "version": "00030739.1"
+            "version": "00030739"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMzg=",
             "id": 2025,
-            "name": "XM530_50X30-SWB_WIFIXM711",
+            "name": "IPC_XM530_50X30-SWB_WIFIXM711",
             "usage": "",
-            "version": "00030750.1"
+            "version": "00030750"
         },
         {
             "downloadMenuId": 6,
@@ -790,15 +654,15 @@
             "id": 2026,
             "name": "IPC_HI3516EV300_85HF50T.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000529E9.1"
+            "version": "000529E9"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMzM=",
             "id": 2027,
-            "name": "IPC_XM530_50X30-WG_WIFIXM713G.713g.",
+            "name": "IPC_XM530_50X30-WG_WIFIXM713G",
             "usage": "",
-            "version": "00030744.1"
+            "version": "00030744"
         },
         {
             "downloadMenuId": 6,
@@ -806,23 +670,23 @@
             "id": 2029,
             "name": "IPC_XM530_RF50X30_WIFIXM713G.713g.Nat.dss.OnvifS",
             "usage": "",
-            "version": "00030746.1"
+            "version": "00030746"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMjc=",
             "id": 2030,
-            "name": "IPC_XM550_50X50-WG_WIFIXM713G.713g.Nat.dss.OnvifS",
+            "name": "IPC_XM550_50X50-WG_WIFIXM713G",
             "usage": "",
-            "version": "000030747.1"
+            "version": "00030747"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMjU=",
             "id": 2032,
-            "name": "XM530_85X20T.Nat.dss.OnvifS.",
+            "name": "IPC_XM530_85X20T.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000309E5.1"
+            "version": "000309E5"
         },
         {
             "downloadMenuId": 6,
@@ -830,15 +694,15 @@
             "id": 2038,
             "name": "IPC_XM530_R80X20-PQL_WIFIXM713",
             "usage": "",
-            "version": "0003075b.1"
+            "version": "0003075b"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzODE=",
             "id": 2044,
-            "name": "IPC_XM550_85X50T.Nat.dss",
+            "name": "IPC_XM550_85X50T",
             "usage": "",
-            "version": "000309EE.1"
+            "version": "000309EE"
         },
         {
             "downloadMenuId": 6,
@@ -846,7 +710,7 @@
             "id": 2047,
             "name": "IPC_XM550_50X50-WNG_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "000309F8.1"
+            "version": "000309F8"
         },
         {
             "downloadMenuId": 6,
@@ -854,7 +718,7 @@
             "id": 2056,
             "name": "IPC_XM530_50X20-WGH_WIFIXM713G",
             "usage": "",
-            "version": "0003067f.1"
+            "version": "0003067f"
         },
         {
             "downloadMenuId": 6,
@@ -862,7 +726,7 @@
             "id": 2057,
             "name": "IPC_XM550_85X40T.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000309F4.1"
+            "version": "000309F4"
         },
         {
             "downloadMenuId": 6,
@@ -870,7 +734,7 @@
             "id": 2058,
             "name": "IPC_XM535_80X40PT.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000309F5.1"
+            "version": "000309F5"
         },
         {
             "downloadMenuId": 6,
@@ -878,31 +742,23 @@
             "id": 2060,
             "name": "IPC_XM550_RA50X50_WIFIXM713G",
             "usage": "",
-            "version": "00030753.1"
+            "version": "00030753"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzNTI=",
             "id": 2065,
-            "name": "IPC_XM530_R50X30-WNG_WIFINVRXM713G_TB.713g",
+            "name": "IPC_XM530_R50X30-WNG_WIFINVRXM713G_TB",
             "usage": "",
-            "version": "000309EC.1"
+            "version": "000309EC"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzNTE=",
             "id": 2066,
-            "name": "IPC_XM530_R80X30-PQ_WIFIXM713G.713g",
+            "name": "IPC_XM530_R80X30-PQ_WIFIXM713G",
             "usage": "",
-            "version": "00030751.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDEzNDg=",
-            "id": 2067,
-            "name": "XM535_80X30T.Nat.dss",
-            "usage": "",
-            "version": "000309ED.1"
+            "version": "00030751"
         },
         {
             "downloadMenuId": 6,
@@ -910,31 +766,31 @@
             "id": 2072,
             "name": "IPC_XM550_R80X50-PQL_WIFIXM713G",
             "usage": "",
-            "version": "00030765.1"
+            "version": "00030765"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzOTQ=",
             "id": 2074,
-            "name": "IPC_XM530_50X30-LP_WIFIHI3861L.Nat.dss",
+            "name": "IPC_XM530_50X30-LP_WIFIHI3861L",
             "usage": "",
-            "version": "0003075c.1"
+            "version": "0003075c"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE0MTM=",
             "id": 2090,
-            "name": "IPC_NT98562_80N40_S38_V5.00.R02",
+            "name": "IPC_NT98562_80N40_S38",
             "usage": "",
-            "version": "000629G3.1"
+            "version": "000629G3"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDEzOTM=",
             "id": 2091,
-            "name": "IPC_XM580_85X80L.Nat.dss.OnvifS.HIK_V5.00.R02",
+            "name": "IPC_XM580_85X80L.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "00060759.1"
+            "version": "00060759"
         },
         {
             "downloadMenuId": 6,
@@ -958,7 +814,7 @@
             "id": 2131,
             "name": "IPC_GK7205V200_85HF30T_S38",
             "usage": "",
-            "version": "000659CD.1"
+            "version": "000659CD"
         },
         {
             "downloadMenuId": 6,
@@ -966,29 +822,29 @@
             "id": 2132,
             "name": "IPC_GK7205V200_50H20AI_S38",
             "usage": "",
-            "version": "000659A7.1"
+            "version": "000659A7"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE0NDI=",
             "id": 2133,
-            "name": "IPC_NT98566_80N50_S38.",
+            "name": "IPC_NT98566_80N50_S38",
             "usage": "",
-            "version": "000639H4.1"
+            "version": "000639H4"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE0NDU=",
             "id": 2134,
-            "name": "IPC_NT98562_80N40PSA-RG_S38.713g.",
+            "name": "IPC_NT98562_80N40PSA-RG_S38.713g",
             "usage": "",
-            "version": "0006292A.1"
+            "version": "0006292A"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1Mzg=",
             "id": 2191,
-            "name": "IPC_GK7202V300_G3-WR_S38.713g",
+            "name": "IPC_GK7202V300_G3-WR_S38",
             "usage": "",
             "version": "000759L5"
         },
@@ -1028,9 +884,9 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE0ODk=",
             "id": 2196,
-            "name": "IPC_GK7205V200_80G30-ER_S38.Nat.",
+            "name": "IPC_GK7205V200_80G30-ER_S38",
             "usage": "",
-            "version": "000659I1.1"
+            "version": "000659I1"
         },
         {
             "downloadMenuId": 6,
@@ -1038,15 +894,15 @@
             "id": 2197,
             "name": "IPC_GK7205V200_80GF30PSA-RG_S38.713g.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000659H9.1"
+            "version": "000659H9"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1Mzk=",
             "id": 2198,
-            "name": "IPC_NT98566_N4-LQ2_S38.Nat.dss",
+            "name": "IPC_NT98566_N4-LQ2_S38",
             "usage": "",
-            "version": "000639L9.1"
+            "version": "000639L9"
         },
         {
             "downloadMenuId": 6,
@@ -1054,7 +910,7 @@
             "id": 2199,
             "name": "IPC_NT98566_IPG-N2-4GQC2_S38",
             "usage": "",
-            "version": "000639L3.1"
+            "version": "000639L3"
         },
         {
             "downloadMenuId": 6,
@@ -1062,15 +918,15 @@
             "id": 2200,
             "name": "IPC_NT98566_IPG-N2-WQ2_S38.713g",
             "usage": "",
-            "version": "000639L0.1"
+            "version": "000639L0"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NDQ=",
             "id": 2201,
-            "name": "IPC_NT98566_80N80PS-R_S38.Nat.dss",
+            "name": "IPC_NT98566_80N80PS-R_S38",
             "usage": "",
-            "version": "000639K6.1"
+            "version": "000639K6"
         },
         {
             "downloadMenuId": 6,
@@ -1078,15 +934,15 @@
             "id": 2202,
             "name": "IPC_NT98566_IPG-N4-WQ2_S38.713g.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000639I8.1"
+            "version": "000639I8"
         },
         {
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE0ODY=",
             "id": 2203,
-            "name": "IPC_NT98566_85N80_S38.Nat.dss",
+            "name": "IPC_NT98566_85N80_S38",
             "usage": "",
-            "version": "000639I2.1"
+            "version": "000639I2"
         },
         {
             "downloadMenuId": 6,
@@ -1094,7 +950,7 @@
             "id": 2204,
             "name": "IPC_NT98566_N8-WQ_S38.713g",
             "usage": "",
-            "version": "000639I0.1"
+            "version": "000639I0"
         },
         {
             "downloadMenuId": 6,
@@ -1102,7 +958,7 @@
             "id": 2205,
             "name": "IPC_NT98562_N4L_S38.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000629JE.1"
+            "version": "000629JE"
         },
         {
             "downloadMenuId": 6,
@@ -1110,7 +966,7 @@
             "id": 2206,
             "name": "IPC_NT98562_80N40PS-R_S38",
             "usage": "",
-            "version": "000629JD.1"
+            "version": "000629JD"
         },
         {
             "downloadMenuId": 6,
@@ -1118,7 +974,7 @@
             "id": 2224,
             "name": "IPC_NT98566_IPG-N2-WE2_S38",
             "usage": "",
-            "version": "000639LE.1"
+            "version": "000639LE"
         },
         {
             "downloadMenuId": 6,
@@ -1126,7 +982,7 @@
             "id": 2225,
             "name": "IPC_NT98566_IPG-N4C-WQ2_S38",
             "usage": "",
-            "version": "000639N0.1"
+            "version": "000639N0"
         },
         {
             "downloadMenuId": 6,
@@ -1134,7 +990,7 @@
             "id": 2226,
             "name": "IPC_XM530_RL50X30-LP_WIFIHI3861L",
             "usage": "",
-            "version": "0003075d.1"
+            "version": "0003075d"
         },
         {
             "downloadMenuId": 6,
@@ -1156,7 +1012,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1Nzg=",
             "id": 2229,
-            "name": "IPC_GK7605V100_G5E.Nat.dss",
+            "name": "IPC_GK7605V100_G5E",
             "usage": "",
             "version": "000829N6"
         },
@@ -1202,27 +1058,11 @@
         },
         {
             "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NzE=",
-            "id": 2252,
-            "name": "IPC_NT98566_IPG-N4C-WQ2_S38",
-            "usage": "",
-            "version": "000639N0.1"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDEzOTc=",
-            "id": 2253,
-            "name": "IPC_XM530_RL50X30-LP_WIFIHI3861L",
-            "usage": "",
-            "version": "0003075d.1"
-        },
-        {
-            "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1MDU=",
             "id": 2263,
-            "name": "IPC_GK7205V200_85K40T_S38.Nat.dss.OnvifS.",
+            "name": "IPC_GK7205V200_85K40T_S38.Nat.dss.OnvifS",
             "usage": "",
-            "version": "000659I7.1"
+            "version": "000659I7"
         },
         {
             "downloadMenuId": 6,
@@ -1230,7 +1070,7 @@
             "id": 2266,
             "name": "IPC_NT98566_N2-LQ2_S38",
             "usage": "",
-            "version": "000639L8.1"
+            "version": "000639L8"
         },
         {
             "downloadMenuId": 6,
@@ -1244,7 +1084,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE1OTc=",
             "id": 2273,
-            "name": "IPC_XM530V200_X2-WR_WIFIXM713G_TB.713g",
+            "name": "IPC_XM530V200_X2-WR_WIFIXM713G_TB",
             "usage": "",
             "version": "000809O2"
         },
@@ -1260,7 +1100,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MDE=",
             "id": 2275,
-            "name": "IPC_XM530V200_85X50.Nat.dss",
+            "name": "IPC_XM530V200_85X50",
             "usage": "",
             "version": "0008068d"
         },
@@ -1268,7 +1108,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MDI=",
             "id": 2276,
-            "name": "IPC_XM530V200_85X40.Nat.dss.OnvifS",
+            "name": "IPC_XM530V200_85X40",
             "usage": "",
             "version": "00080760"
         },
@@ -1276,7 +1116,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE2Mjk=",
             "id": 2279,
-            "name": "IPC_XM530V200_85X80.Nat.dss.OnvifS.HIK",
+            "name": "IPC_XM550V200_85X80.Nat.dss.OnvifS.HIK",
             "usage": "",
             "version": "00080767"
         },
@@ -1300,7 +1140,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MzY=",
             "id": 2282,
-            "name": "IPC_XM530V200_R80XV30B_WIFIXM713G.713g",
+            "name": "IPC_XM530V200_R80XV30B_WIFIXM713G",
             "usage": "",
             "version": "000809P8"
         },
@@ -1318,7 +1158,7 @@
             "id": 2284,
             "name": "IPC_GK7205V200_G3S_S38.Nat.dss.OnvifS.HIK",
             "usage": "",
-            "version": "000659AG.1"
+            "version": "000659AG"
         },
         {
             "downloadMenuId": 6,
@@ -1386,33 +1226,17 @@
         },
         {
             "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MDg=",
-            "id": 2312,
-            "name": "IPC_GK7201V200_G3H_S38",
-            "usage": "",
-            "version": "000929ST"
-        },
-        {
-            "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE4Mjc=",
             "id": 2313,
-            "name": "IPC_GK7205V500_G5F-LQ",
+            "name": "IPC_GK7205V500_G5F-LQ.Nat.dss.OnvifS.HIK",
             "usage": "",
             "version": "000889WY"
         },
         {
             "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTA=",
-            "id": 2316,
-            "name": "IPC_GK7205V200_G4H_S38",
-            "usage": "",
-            "version": "000659SQ"
-        },
-        {
-            "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NzU=",
             "id": 2317,
-            "name": "IPC_XM210_X2P-WR-T_S38_WIFI\n",
+            "name": "IPC_XM210_X2P-WR-T_S38_WIFI.Q35343\n",
             "usage": "",
             "version": "000999Y0"
         },
@@ -1447,14 +1271,6 @@
             "name": "IPC_GK7205V500_G5SF\n",
             "usage": "",
             "version": "000889S3"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTI=",
-            "id": 2323,
-            "name": "IPC_GK7205V500_G4SF\n",
-            "usage": "",
-            "version": "000889S2"
         },
         {
             "downloadMenuId": 6,
@@ -1508,7 +1324,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE4OTc=",
             "id": 2336,
-            "name": "  IPC_GK7206V11_K8",
+            "name": "IPC_GK7206V11_K8.Nat.dss.Onvif",
             "usage": "",
             "version": "000B9A0D  "
         },
@@ -1564,7 +1380,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MjQ=",
             "id": 2350,
-            "name": "\nIPC_GK7205V500_G5-LQ\n",
+            "name": "\nIPC_GK7205V500_G5-LQ.Nat.dss.OnvifS.HIK\n",
             "usage": "",
             "version": "000889SE"
         },
@@ -1575,14 +1391,6 @@
             "name": "\nIPC_GK7205V200_G5J_S38\n",
             "usage": "",
             "version": "000659ZK"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2Mzc=",
-            "id": 2353,
-            "name": "\nIPC_GK7205V300_G6S\n",
-            "usage": "",
-            "version": "000699Q3"
         },
         {
             "downloadMenuId": 6,
@@ -1599,14 +1407,6 @@
             "name": "\nIPC_NT98566_N8F-LQ\n",
             "usage": "",
             "version": "000749TG"
-        },
-        {
-            "downloadMenuId": 6,
-            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDU=",
-            "id": 2357,
-            "name": "\nIPC_GK7205V200_G3S\n",
-            "usage": "",
-            "version": "000739AG"
         },
         {
             "downloadMenuId": 6,
@@ -1628,7 +1428,7 @@
             "downloadMenuId": 6,
             "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NDI=",
             "id": 2451,
-            "name": " IPC_NT98560_N12\n",
+            "name": "IPC_NT98560_N12.Nat.dss.OnvifS.HIK\n",
             "usage": "",
             "version": "000769XU "
         },
@@ -1647,7 +1447,831 @@
             "name": "\n  IPC_XM212_X2-WEQ-T_S38_WIFI\n\n",
             "usage": "",
             "version": "0009AA12"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MTU=",
+            "id": 2731,
+            "name": "IPC_XM530V200_X2C-WR_WIFIXM713G",
+            "usage": "",
+            "version": "000807AF"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NzI=",
+            "id": 2741,
+            "name": "XMJP_IPC_LITEOS_GK7202V300_G2-EA_S38_HI3861L",
+            "usage": "",
+            "version": "000729M5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDEzMjc=",
+            "id": 2751,
+            "name": "IPC_XM550_50X50-WG_WIFIXM713G.713g.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000030747"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDA5MjU=",
+            "id": 2761,
+            "name": "IPC_HI3516EV100_50H20L_E_S38_8188EU\t",
+            "usage": "",
+            "version": "00022991"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDAzMzU=",
+            "id": 2771,
+            "name": " IPC_XM510_RA50X20-C_WIFIXM712",
+            "usage": "",
+            "version": "00023662 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NTA=",
+            "id": 2781,
+            "name": "IPC_XM530_50X30-XM-FEED_WIFIXM713G",
+            "usage": "",
+            "version": "000309MC"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDA3ODk=",
+            "id": 2791,
+            "name": "IPC_LITEOS_HI3518EV201_KA50H10L_S38_HI1131",
+            "usage": "",
+            "version": "00038710"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NTE=",
+            "id": 2801,
+            "name": "IPC_GK7205V200_G4C_S38.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "\t000659Q7"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NTc=",
+            "id": 2811,
+            "name": "IPC_GK7205V200_G41_S38.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000659QA"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NTk=",
+            "id": 2821,
+            "name": "IPC_LITEOS_GK7202V300_LPG-G4-4GQ_S38_AIR780E_V1.01.LITEOS",
+            "usage": "",
+            "version": "000729MI"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1OTk=",
+            "id": 2831,
+            "name": "IPC_XM530V200_X4C-WQ_WIFIXM713G_TB.713g.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807A8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MTA=",
+            "id": 2841,
+            "name": "IPC_XM530V200_X2-WQ2_WIFIXM713G_TB.713g.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807AB"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDY=",
+            "id": 2851,
+            "name": "IPC_XM530V200_X4C.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "\t000807BF"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDc=",
+            "id": 2861,
+            "name": "IPC_XM530V200_X4-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807CB"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NzQ=",
+            "id": 2871,
+            "name": "IPC_XM530V200_IPG-X6-4GEQ",
+            "usage": "",
+            "version": "000807CD"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NTU=",
+            "id": 2881,
+            "name": "IPC_XM530V200_IPG-X4C-WER_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807CF"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2ODQ=",
+            "id": 2891,
+            "name": "IPC_XM530V200_X6-WEQ_WIFISSV6158M",
+            "usage": "",
+            "version": "000807D8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDEzOTY=",
+            "id": 2901,
+            "name": "IPC_XM530_85X20T.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "J91309E5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE0MTk=",
+            "id": 2911,
+            "name": "IPC_XM535_80X30T.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "J91309ED"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE0MTg=",
+            "id": 2921,
+            "name": "IPC_XM550_85X50T.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "J91309EE"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2ODM=",
+            "id": 2931,
+            "name": "IPC_XM530V200_X2-WQ-BL_WIFISSV6355",
+            "usage": "",
+            "version": "\t000807D5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MzQ=",
+            "id": 2941,
+            "name": "IPC_XM530V200_X2-WE_WIFIXM713G_TB",
+            "usage": "",
+            "version": "000807BD"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NzM=",
+            "id": 2951,
+            "name": "IPC_XM530V200_IPG-X6-WEQ2_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807CA"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MzA=",
+            "id": 2961,
+            "name": "IPC_XM530V200_X2-WR-BL_WIFISSV6158M",
+            "usage": "",
+            "version": "000809P6"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MjQ=",
+            "id": 2971,
+            "name": "XMJP_IPC_LITEOS_GK7202V300_G4-EA_S38_HI3861L",
+            "usage": "",
+            "version": "000729MG"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MTk=",
+            "id": 2981,
+            "name": "IPC_XM530V200_X2C-WQ_WIFIXM713G",
+            "usage": "",
+            "version": "000807B4"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDQ=",
+            "id": 2991,
+            "name": "IPC_XM530V200_X4-WEQ_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807C1"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2ODk=",
+            "id": 3001,
+            "name": "IPC_AX620U_A8.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000869RK"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDE=",
+            "id": 3011,
+            "name": "IPC_LITEOS_GK7202V300_G4-GL_S38_HI3861L",
+            "usage": "",
+            "version": "000729Q2"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2OTI=",
+            "id": 3021,
+            "name": "IPC_XM530V200_X2S-WR-BL_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807DB"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2Mzg=",
+            "id": 3031,
+            "name": "IPC_XM530V200_X2-WR2_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807B9"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MDA=",
+            "id": 3041,
+            "name": "IPC_XM530V200_X6C-WEQ_WIFIATBM6012BX_TB",
+            "usage": "",
+            "version": "000807DD"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2OTY=",
+            "id": 3051,
+            "name": "IPC_AX620U_A4.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000869RL"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE1NjE=",
+            "id": 3061,
+            "name": "IPC_GK7202V300_G3-WRD_S38.713g",
+            "usage": "",
+            "version": "000759LK"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2NDA=",
+            "id": 3071,
+            "name": "IPC_XM530V200_LPG-X4-WQ_WIFIHI3861L",
+            "usage": "",
+            "version": "000807C0"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTA=",
+            "id": 3081,
+            "name": "IPC_GK7205V200_G4H_S38.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000659SQ"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTI=",
+            "id": 3091,
+            "name": "IPC_GK7205V500_G4SF.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000889S2"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MDg=",
+            "id": 3101,
+            "name": "IPC_GK7201V200_G3H_S38.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000929ST"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MjE=",
+            "id": 3111,
+            "name": "IPC_XM530V200_X4H.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000809SR"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3Mjg=",
+            "id": 3121,
+            "name": "IPC_NT98566_IPG-N8-WQ-BL_WIFI.at6062u.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000749T8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTE=",
+            "id": 3131,
+            "name": "IPC_XM530V200_LPG-X4-WEQ_WIFIHI3861L",
+            "usage": "",
+            "version": "000807D1"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MTg=",
+            "id": 3141,
+            "name": "IPC_GK7201V200_G3H_WIFI.at6012bx.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "\t000939ST"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MzE=",
+            "id": 3151,
+            "name": "IPC_AX620U_A4-WQ_WIFI.at6062u.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "\t000869RM"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MjU=",
+            "id": 3161,
+            "name": "IPC_GK7201V200_G3-4GQC-S_S38_4G.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000929TA"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MzQ=",
+            "id": 3171,
+            "name": "IPC_XM530V200_X3-WR-V-BL_WIFISSV6158M",
+            "usage": "",
+            "version": "000807E5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3Mzk=",
+            "id": 3181,
+            "name": "IPC_GK7201V300_IPG-G2-WR-BL_S38_WIFI.6158M",
+            "usage": "",
+            "version": "000949TP"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NDE=",
+            "id": 3191,
+            "name": "IPC_XM530V200_LPG-X4-4GEQ",
+            "usage": "",
+            "version": "\t000807DC"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2ODI=",
+            "id": 3201,
+            "name": "IPC_GK7202V300_G4-WR-BL_S38.SV6355",
+            "usage": "",
+            "version": "000759R5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NDk=",
+            "id": 3211,
+            "name": "IPC_XM530V200_IPG-X10-WEQ_WIFISSV6158M_TB.6158M.Nat.OnvifS",
+            "usage": "",
+            "version": "000807E8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTA=",
+            "id": 3221,
+            "name": "IPC_AX620E_A6.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000979TU"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3MDM=",
+            "id": 3231,
+            "name": "IPC_GK7205V200_G4-WQ-BL_S38.Nat.OnvifS",
+            "usage": "",
+            "version": "000659SB"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTE=",
+            "id": 3241,
+            "name": "IPC_XM550_RB85X40M-B_WIFIXM713G.713g.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "\t000309MD"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTY=",
+            "id": 3251,
+            "name": "IPC_GK7205V200_EY4A-U_S38_4G",
+            "usage": "",
+            "version": "\t000659U8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NDU=",
+            "id": 3261,
+            "name": "IPC_XM530V200_X4-WE2Q_WIFISSV6158M",
+            "usage": "",
+            "version": "000807E4"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NDQ=",
+            "id": 3271,
+            "name": "IPC_XM530V200_X4-WE2Q_WIFISSV6158M",
+            "usage": "",
+            "version": "000807E3"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTM=",
+            "id": 3281,
+            "name": "IPC_XM530V200_X4-WE2Q2_WIFISSV6158M",
+            "usage": "",
+            "version": "000807E7"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTk=",
+            "id": 3291,
+            "name": "IPC_AX620E_A4-4GQ_4G.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000979RO"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTI=",
+            "id": 3301,
+            "name": "IPC_XM535D1_X6E-WEQ_WIFIATBM6012BX_TB.at6012bx.Nat.OnvifS",
+            "usage": "",
+            "version": "000A07F3"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjE=",
+            "id": 3311,
+            "name": "IPC_XM535W1_X3-WQ-A_WIFIATBM6012BX_TB.at6012bx.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000A07F8"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjI=",
+            "id": 3321,
+            "name": "IPC_AX620E_A6-W_WIFI.at6012bx.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000979U7"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjM=",
+            "id": 3331,
+            "name": "IPC_AX620E_A6-4G_4G.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000979U6"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjY=",
+            "id": 3341,
+            "name": "IPC_GK7201V300_G2-WR-V_S38_WIFI.6158M",
+            "usage": "",
+            "version": "000949U5"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjU=",
+            "id": 3351,
+            "name": "IPC_XM530V200_X2C-WR-V_WIFISSV6158M",
+            "usage": "",
+            "version": "000807FE"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjQ=",
+            "id": 3361,
+            "name": "IPC_XM533W1_X3-WQ-B_WIFISSV6158M_TB.6158M.Nat.OnvifS",
+            "usage": "",
+            "version": "000847FB"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NTQ=",
+            "id": 3371,
+            "name": "IPC_XM533W1_X3-WR-B_WIFISSV6158M.6158M.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000847ED"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2OTQ=",
+            "id": 3381,
+            "name": "IPC_XM530V200_X4C-WQ-BL_WIFISSV6355_TB.6355.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000807D9"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NzE=",
+            "id": 3391,
+            "name": "IPC_XM530V200_X3-4GR-V",
+            "usage": "",
+            "version": "000807F9"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE2MDM=",
+            "id": 3401,
+            "name": "IPC_GK7205V200_G4-WQ_S38.713g.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000659N4"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NzQ=",
+            "id": 3411,
+            "name": "IPC_RV1106G2_LPG-R4C-4GEQ_4G",
+            "usage": "",
+            "version": "000A29U9"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NzM=",
+            "id": 3421,
+            "name": "IPC_RV1106G2_LPG-R4-4GEQ_4G",
+            "usage": "",
+            "version": "000A29TX"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3NjA=",
+            "id": 3431,
+            "name": "IPC_GK7205V500_G5S-WQ_WIFI.at6062u.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000889TV"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3Njk=",
+            "id": 3441,
+            "name": "IPC_GK7205V500_G5S-4GQC_4G.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000889TW  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3Nzc=",
+            "id": 3451,
+            "name": "IPC_XM530V200_X6-LEQ.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000809TY   "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3Nzk=",
+            "id": 3461,
+            "name": "IPC_XM533W1_X3-WR-B-V2_WIFIATBM6132BS.at6132bs.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000849UF  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3ODE=",
+            "id": 3471,
+            "name": "IPC_XM530V200_LPG-X4-WR_WIFISV32WB0X.sv32wb0x",
+            "usage": "",
+            "version": "000807EA"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3ODM=",
+            "id": 3481,
+            "name": "IPC_XM535D1_X3-WE2Q_WIFIATBM6012B_X.at6012bx.Nat.OnvifS",
+            "usage": "",
+            "version": "000A06cd "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3ODQ=",
+            "id": 3491,
+            "name": "IPC_XM530V200_X4C-WER-V_WIFISSV6158M",
+            "usage": "",
+            "version": "000807FC  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3ODc=",
+            "id": 3501,
+            "name": "IPC_GK7201V300_LPG-G3-WQ_WIFI.sv32wb0x",
+            "usage": "",
+            "version": "000959TC "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3ODk=",
+            "id": 3511,
+            "name": "IPC_GK7201V200_G3-WQ-S_S38_WIFI.at6012bx.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000929TR "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTA=",
+            "id": 3521,
+            "name": "IPC_GK7202V300_G3-WRD-BL_S38.at6012bx",
+            "usage": "",
+            "version": "\t000759UN  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTE=",
+            "id": 3531,
+            "name": "IPC_XM530V200_X6-WEQ-V2_WIFIATBM6132BS.at6132bs.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000809V1   "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTM=",
+            "id": 3541,
+            "name": "IPC_GK7202V300_LPG-G5-WQ_WIFI.sv32wb0x",
+            "usage": "",
+            "version": "000779SU "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTY=",
+            "id": 3551,
+            "name": "IPC_XM533W1_X4C-WQ-B_WIFISSV6158M_TB.6158M.Nat.OnvifS",
+            "usage": "",
+            "version": "000849W2"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTc=",
+            "id": 3561,
+            "name": "IPC_XM535D1_X4C-WER-A_WIFISSV6158M.6158M.Nat.OnvifS",
+            "usage": "",
+            "version": "000A0802 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTg=",
+            "id": 3571,
+            "name": " IPC_AX620E_A5.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000979TT "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE3OTk=",
+            "id": 3581,
+            "name": "IPC_XM530V200_X3S-WQ-BL_WIFIATBM6012BX_TB.at6012bx.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000809UY"
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MDI=",
+            "id": 3591,
+            "name": "IPC_RV1106G2_LPG-R4-4GQ_4G",
+            "usage": "",
+            "version": "000A29UU "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MDM=",
+            "id": 3601,
+            "name": "IPC_AX620E_A5-4G_4G.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000979VM   "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MTE=",
+            "id": 3611,
+            "name": "IPC_RV1106_R5-WQ_WIFI.at6062u.Nat.OnvifS",
+            "usage": "",
+            "version": "000A39W6 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MTY=",
+            "id": 3621,
+            "name": "IPC_LITEOS_GK7202V300_LPG-G4-4GQEU_S38_4G",
+            "usage": "",
+            "version": "000729MQ "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MTk=",
+            "id": 3631,
+            "name": "IPC_RV1106G2_LPG-R4C-WEQ_WIFI.ws3853v",
+            "usage": "",
+            "version": "000A29V3 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MjI=",
+            "id": 3641,
+            "name": "IPC_RV1106G2_LPG-R4C-WQ_WIFI.ws3853v",
+            "usage": "",
+            "version": "\t000A29V2 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MzY=",
+            "id": 3651,
+            "name": "IPC_XM535D1_X4-4GE2Q",
+            "usage": "",
+            "version": "000A09WN  "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4MDU=",
+            "id": 3661,
+            "name": "IPC_GK7201V300_LPG-G3-WM_WIFI.sv32wb0x",
+            "usage": "",
+            "version": "000959VG "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NDY=",
+            "id": 3671,
+            "name": "IPC_XM535D2_X9-WE2Q_WIFIATBM6132CU.at6132cu",
+            "usage": "",
+            "version": "000A09YK "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NTI=",
+            "id": 3681,
+            "name": "IPC_XM533W1_X3S-WC-B_WIFIATBM6132BS.at6132bs.Nat.dss.OnvifS",
+            "usage": "",
+            "version": "000849YZ "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NTQ=",
+            "id": 3691,
+            "name": "IPC_AX620Q_A6.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000B19TU   "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NDc=",
+            "id": 3701,
+            "name": "IPC_GK7202V330_LPG-G4S-WQ-N_WIFI.ws3853v",
+            "usage": "",
+            "version": "000A49YE "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NTg=",
+            "id": 3711,
+            "name": "IPC_RV1103_LPG-R4S-4GQ-V2_4G",
+            "usage": "",
+            "version": "000A79ZB    "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NTk=",
+            "id": 3721,
+            "name": "IPC_XM530V200_X4-WQ2-BL_WIFIATBM6012BX_TB.Nat.dss.OnvifS",
+            "usage": "",
+            "version": ""
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NjA=",
+            "id": 3731,
+            "name": "IPC_AX620Q_A6-4G_4G.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "\t000B19U6 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4NjM=",
+            "id": 3741,
+            "name": "IPC_AX620Q_A6-W_WIFI.at6012bx.Nat.dss.OnvifS.HIK",
+            "usage": "",
+            "version": "000B19U7 "
+        },
+        {
+            "downloadMenuId": 6,
+            "downloadUrl": "https://download.jftech.com/d/MDAwMDE4Njk=",
+            "id": 3751,
+            "name": "IPC_RV1103_LPG-R4C-4GQ-C_4G",
+            "usage": "",
+            "version": "000A79WC "
         }
     ],
-    "total": 206
+    "total": 284
 }
